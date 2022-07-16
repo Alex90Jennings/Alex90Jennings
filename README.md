@@ -18,10 +18,22 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
 <details> 
    
 <summary>Click for my github stats: </summary>
+
+**Current Stack**
    
-   CALENDER REPO
-   TABLE WITH LANGUAGES USED
-   GITHUB RATING
+HTML, CSS, JS, REACT, Node.js, PostgreSQL
+     
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Alex90Jennings&theme=tokyonight" />
+</a>
+   
+<a href="https://git.io/streak-stats">
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=Alex90Jennings&theme=tokyonight&date_format=j%20M%5B%20Y%5D" />
+</a>
+   
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alex90Jennings&theme=tokyonight" />
+</a>
    
 </details>
 
@@ -68,10 +80,6 @@ Using a finite state machine (XState) I plan to code a variation of a game card 
 ### And after?:
 
 Learn Pinescript to develop some custom indicators to assist decision making while trading the financial markets, based on Fibonacci and volume spread analysis
-
-
-## My current stack:
-HTML, CSS, JS, REACT, Node.js, PostgreSQL
 
 
 ## ABOUT ME:
