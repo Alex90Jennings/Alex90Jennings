@@ -1,34 +1,71 @@
 # **Hi, I'm Alex** 👋 
 
-## Here's how to contact me: 💬 +393516140060   📫 aj0312@my.bristol.ac.uk   :computer: [LinkedIn](https://www.linkedin.com/in/alex-90-jennings/)
-
+<details> 
+   
+<summary>Click for contact information: </summary>
+   
+   💬 +393516140060 
+   
+   📫 aj0312@my.bristol.ac.uk 
+   
+   :computer: [LinkedIn](https://www.linkedin.com/in/alex-90-jennings/)
+   
+   
+</details>  
 Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods. Over the next 6 months I plan to improve my problem solving with daily code war exercises, expand my knowledge in some new languages (Python, Pine Script, Typescript) and create some awesome applications/websites!
 
-## LANGUAGE STATS
 
-## Some repos that I am proud of:
+<details> 
+   
+<summary>Click for my github stats: </summary>
+   
+   CALENDER REPO
+   TABLE WITH LANGUAGES USED
+   GITHUB RATING
+   
+</details>
 
-A player vs computer blackjack game [BLACKJACK](https://github.com/Alex90Jennings/react-blackjack)
+## Some repos that I am proud of (click for more details):
+
+<details> 
+   
+<summary>
+   
+### A player vs computer blackjack game [BLACKJACK](https://github.com/Alex90Jennings/react-blackjack)
+   
+</summary>
+   
    - A player can play a hand vs the dealer, and bet on the result
    - My first full stack application built from scratch
    - Implementing a finite state machine would make the game process and expansion easier to manage
 
-A spotify clone with an opera theme [OPERAFY](https://github.com/Alex90Jennings/boolean-uk-html-spotify)
+</details>
+
+<details> 
+   
+<summary>
+   
+### A spotify clone with an opera theme [OPERAFY](https://github.com/Alex90Jennings/boolean-uk-html-spotify) 
+      
+</summary>
+   
    - HMTL and CSS clone of spotify
    - Prastising CSS grids
    - Soon I will add JS to add functionality to the clone
 
+</details>
+
 ## Projects I am planning:
 
-Here is what I am working on now:
+### Here is what I am working on now:
 
-A team development simulation, working together with 10 other students to implement features for a teacher's portal, so that teachers can track and create notes on students [CLIENT /](https://github.com/Alex90Jennings/team-dev-client-c5) [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
+A team development simulation, working together with 10 other students to implement features for a teacher's portal, so that teachers can track and create notes on students [CLIENT](https://github.com/Alex90Jennings/team-dev-client-c5) / [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
 
-What's up next?:
+### What's up next?:
 
 Using a finite state machine (XState) I plan to code a variation of a game card that I invented with some friends on a long train ride in India
 
-And after?:
+### And after?:
 
 Learn Pinescript to develop some custom indicators to assist decision making while trading the financial markets, based on Fibonacci and volume spread analysis
 
