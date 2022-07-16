@@ -5,6 +5,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
 LANGUAGE STATS
 
 **Some repos that I am proud of:**
+
 A player vs computer blackjack game [BLACKJACK](https://github.com/Alex90Jennings/react-blackjack)
    - A player can play a hand vs the dealer, and bet on the result
    - My first full stack application built from scratch
@@ -18,7 +19,7 @@ A spotify clone with an opera theme [OPERAFY](https://github.com/Alex90Jennings/
 
 **Here is what I am working on now:** 
 
-A team development simulation, working together with 10 other students to implement features for a teacher's portal, so that teachers can track and create notes on students [CLIENT](https://github.com/Alex90Jennings/team-dev-client-c5) [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
+A team development simulation, working together with 10 other students to implement features for a teacher's portal, so that teachers can track and create notes on students [CLIENT /](https://github.com/Alex90Jennings/team-dev-client-c5) [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
 
 **What's up next?:** 
 
