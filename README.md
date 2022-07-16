@@ -4,9 +4,9 @@ Here's how to contact me: 💬 +393516140060   📫 aj0312@my.bristol.ac.uk   :c
 
 Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods. Over the next 6 months I plan to improve my problem solving with daily code war exercises, expand my knowledge in some new languages (Python, Pine Script, Typescript) and create some awesome applications/websites!
 
-LANGUAGE STATS
+#LANGUAGE STATS
 
-**Some repos that I am proud of:**
+#**Some repos that I am proud of:**
 
 A player vs computer blackjack game [BLACKJACK](https://github.com/Alex90Jennings/react-blackjack)
    - A player can play a hand vs the dealer, and bet on the result
@@ -19,7 +19,7 @@ A spotify clone with an opera theme [OPERAFY](https://github.com/Alex90Jennings/
    - Soon I will add JS to add functionality to the clone
 
 
-**Here is what I am working on now:** 
+#**Here is what I am working on now:** 
 
 A team development simulation, working together with 10 other students to implement features for a teacher's portal, so that teachers can track and create notes on students [CLIENT /](https://github.com/Alex90Jennings/team-dev-client-c5) [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
 
@@ -32,11 +32,11 @@ Using a finite state machine (XState) I plan to code a variation of a game card 
 Learn Pinescript to develop some custom indicators to assist decision making while trading the financial markets, based on Fibonacci and volume spread analysis
 
 
-**My current stack:**
+#**My current stack:**
 HTML, CSS, JS, REACT, Node.js, PostgreSQL
 
 
-**ABOUT ME:**
+#**ABOUT ME:**
 
 :construction_worker: Worked in the financial markets
 
