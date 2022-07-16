@@ -1,19 +1,27 @@
 ### **Hi, I'm Alex** 👋 
 
-Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods.
+## Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods.
 
-**Some repos that I am proud of:**
-A player vs computer blackjack game https://github.com/Alex90Jennings/react-blackjack
-A spotify clone with an opera theme https://github.com/Alex90Jennings/boolean-uk-html-spotify
+LANGUAGE STATS
 
-**Here is what I am working on now:** a team development simulation, working together with 10 other students to implement features for a teacher's portal, so that teachers can track and create notes on students CLIENT: https://github.com/Alex90Jennings/team-dev-client-c5 SERVER: https://github.com/Alex90Jennings/team-dev-server-c5
+##**Some repos that I am proud of:**
+#A player vs computer blackjack game [BLACKJACK](https://github.com/Alex90Jennings/react-blackjack)
+   - A player can play a hand vs the dealer, and bet on the result
+   - My first full stack application built from scratch
+   - Implementing a finite state machine would make the game process and expansion easier to manage
+#A spotify clone with an opera theme [OPERAFY](https://github.com/Alex90Jennings/boolean-uk-html-spotify)
+   - HMTL and CSS clone of spotify
+   - Prastising CSS grids
+   - Soon I will add JS to add functionality to the clone
+
+**Here is what I am working on now:** a team development simulation, working together with 10 other students to implement features for a teacher's portal, so that teachers can track and create notes on students [CLIENT](https://github.com/Alex90Jennings/team-dev-client-c5) [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
 **What's up next?:** using a finite state machine (XState) I plan to code a variation of a game card that I invented with some friends on a long train ride in India
 **And after?:** learn Pinescript to develop some custom indicators to assist decision making while trading the financial markets, based on Fibonacci and volume spread analysis
 
-**My current stack:**
-HTML, CSS, JS, REACT, Node.js
+##**My current stack:**
+HTML, CSS, JS, REACT, Node.js, PostgreSQL
 
-**ABOUT ME:**
+##**ABOUT ME:**
 :construction_worker: Worked in the financial markets
 :house_with_garden: Opened a bed and breakfast in Arezzo, Italy
 🌱 Organic market garden enthusiast
