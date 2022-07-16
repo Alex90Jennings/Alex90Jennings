@@ -1,5 +1,7 @@
 ### **Hi, I'm Alex** 👋 
 
+💬 +393516140060 📫 aj0312@my.bristol.ac.uk
+
 Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods.
 
 LANGUAGE STATS
