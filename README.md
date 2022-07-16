@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 I'm currently updating my Github to show off what I've learnt so far, and what I plan to learn soon
 
 <!--
 **Alex90Jennings/Alex90Jennings** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
