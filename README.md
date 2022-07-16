@@ -1,8 +1,8 @@
 ### **Hi, I'm Alex** 👋 
 
-💬 +393516140060 📫 aj0312@my.bristol.ac.uk
+Here's how to contact me: 💬 +393516140060   📫 aj0312@my.bristol.ac.uk   :computer: [LinkedIn](https://www.linkedin.com/in/alex-90-jennings/)
 
-Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods.
+Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods. Over the next 6 months I plan to improve my problem solving with daily code war exercises, expand my knowledge in some new languages (Python, Pine Script, Typescript) and create some awesome applications/websites!
 
 LANGUAGE STATS
 
