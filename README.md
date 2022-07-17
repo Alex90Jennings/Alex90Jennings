@@ -25,6 +25,8 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
 <details> 
    
 <summary>Click for my stacks and stats: </summary>
+   
+      <p> </p>
 
 **Current Stack:**
    
@@ -58,6 +60,8 @@ Typescript, Python, Pine Script
     </a>
     <p></p>
   </div>
+   
+      <p> </p>
 
 </details>
 
