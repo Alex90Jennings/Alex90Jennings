@@ -19,7 +19,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
 <summary>Click for my github stats: </summary>
 
-**Current Stack**
+**Current Stack:**
    
 HTML, CSS, JS, REACT, Node.js, PostgreSQL
    
