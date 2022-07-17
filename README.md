@@ -10,7 +10,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
 <p> </p>
    
-   💬 +393516140060 
+   💬 +39 351 614 0060 
    
    📫 aj0312@my.bristol.ac.uk 
    
