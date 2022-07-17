@@ -16,6 +16,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
    :computer: [LinkedIn](https://www.linkedin.com/in/alex-90-jennings/)
    
+   <p> </p>
    
 </details>  
 
