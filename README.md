@@ -1,5 +1,9 @@
 # <h1 align="center">👋 Hi, I'm Alex 👋</h1> 
 
+Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods. Over the next 6 months I plan to improve my problem solving with daily code war exercises, expand my knowledge in some new languages (Python, Pine Script, Typescript) and create some awesome applications/websites!
+
+<p> </p>
+
 <details> 
    
 <summary>Click for contact information: </summary>
@@ -12,7 +16,6 @@
    
    
 </details>  
-Since Feb 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods. Over the next 6 months I plan to improve my problem solving with daily code war exercises, expand my knowledge in some new languages (Python, Pine Script, Typescript) and create some awesome applications/websites!
 
 <p> </p>
 
