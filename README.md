@@ -23,7 +23,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
 HTML, CSS, JS, REACT, Node.js, PostgreSQL
    
-**Current Stack**
+**Looking to add soon:**
    
 Typescript, Python, Pine Script
     
