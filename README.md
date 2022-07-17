@@ -109,7 +109,7 @@ Learn Pinescript to develop some custom indicators to assist decision making whi
 
 ⚡ Building PCs since 2014
 
-:dog2: mini-dachshund owner
+:dog2: Mini-dachshund owner
 
 :dragon: Enjoy fantasy novels, especially LOtR and GoT
 
