@@ -26,7 +26,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
 <summary>Click for my stacks and stats: </summary>
    
-      <p> </p>
+<p> </p>
 
 **Current Stack:**
    
@@ -36,7 +36,7 @@ HTML, CSS, JS, REACT, Node.js, PostgreSQL
    
 Typescript, Python, Pine Script
     
-  <p></p>
+<p></p>
   
   <div align="center"> 
      <a href="https://github.com/anuraghazra/github-readme-stats">
