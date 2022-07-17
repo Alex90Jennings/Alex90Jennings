@@ -8,7 +8,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
 <summary>Click for contact information: </summary>
    
-   <p> </p>
+<p> </p>
    
    💬 +393516140060 
    
@@ -16,7 +16,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
    :computer: [LinkedIn](https://www.linkedin.com/in/alex-90-jennings/)
    
-   <p> </p>
+<p> </p>
    
 </details>  
 
