@@ -1,4 +1,4 @@
-# **Hi, I'm Alex** 👋 
+# <h1 align="center">👋 Hi, I'm Alex 👋</h1> 
 
 <details> 
    
@@ -22,22 +22,39 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
 **Current Stack**
    
 HTML, CSS, JS, REACT, Node.js, PostgreSQL
-     
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Alex90Jennings&theme=tokyonight" />
-</a>
    
-<a href="https://git.io/streak-stats">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=Alex90Jennings&theme=tokyonight&date_format=j%20M%5B%20Y%5D" />
-</a>
+**Current Stack**
    
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alex90Jennings&theme=tokyonight" />
-</a>
+Typescript, Python, Pine Script
+    
+  <p></p>
+  
+  <div align="center"> 
+     <a href="https://github.com/anuraghazra/github-readme-stats">
+      <img align="center" src="https://github-readme-stats.vercel.app/api?username=Alex90Jennings&theme=tokyonight" />
+    </a>
+    <p></p>
+  </div>
+  
+
+  
+  <div align="center"> 
+    <a href="https://git.io/streak-stats">
+      <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=Alex90Jennings&theme=tokyonight&date_format=j%20M%5B%20Y%5D" />
+    </a>
+    <p></p>
+  </div>
    
+  <div align="center"> 
+    <a href="https://github.com/anuraghazra/convoychat">
+      <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alex90Jennings&theme=tokyonight&layout=compact" />
+    </a>
+    <p></p>
+  </div>
+
 </details>
 
-## Some repos that I am proud of (click for more details):
+## <h2 align="center">PAST PROJECTS: (click for more details)</h2>
 
 <details> 
    
@@ -67,7 +84,7 @@ HTML, CSS, JS, REACT, Node.js, PostgreSQL
 
 </details>
 
-## Projects I am planning:
+## <h2 align="center">FUTURE PROJECTS: </h2> 
 
 ### Here is what I am working on now:
 
@@ -82,7 +99,7 @@ Using a finite state machine (XState) I plan to code a variation of a game card 
 Learn Pinescript to develop some custom indicators to assist decision making while trading the financial markets, based on Fibonacci and volume spread analysis
 
 
-## ABOUT ME:
+## <h2 align="center">ABOUT ME: </h2> 
 
 :construction_worker: Worked in the financial markets
 
@@ -99,7 +116,7 @@ Learn Pinescript to develop some custom indicators to assist decision making whi
 :bike: Keep fit by cycling in the Puglia hills
 
 
-I have been lucky to be able to attend a great coding bootcamp, Boolean UK, where I met and was taught by a talented group of instructors and students. My coding influences include the Boolean instructors, as well as Jonas Schmedtmann, Robert Martin, Paul Mendes and many more
+I have been lucky to be able to attend a great coding bootcamp, Boolean UK, where I met and was taught by a talented group of instructors and students. My coding influences include the Boolean instructors, as well as Jonas Schmedtmann, Robert Martin, Paul Mendes and many more. After 5th August 2022, I will be looking for opportunities as a Junior Software Developer at a fast paced, innovative work place.
 
 <!--
 **Alex90Jennings/Alex90Jennings** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
