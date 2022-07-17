@@ -61,7 +61,7 @@ Typescript, Python, Pine Script
     <p></p>
   </div>
    
-      <p> </p>
+<p> </p>
 
 </details>
 
