@@ -36,7 +36,7 @@ HTML, CSS, JS, REACT, Node.js, PostgreSQL
    
 Typescript, Python, Pine Script
     
-<p></p>
+<p> </p>
   
   <div align="center"> 
      <a href="https://github.com/anuraghazra/github-readme-stats">
