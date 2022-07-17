@@ -54,7 +54,7 @@ Typescript, Python, Pine Script
 
 </details>
 
-## <h2 align="center">PAST PROJECTS: (click for more details)</h2>
+## <h2 align="center">PAST PROJECTS: (click individual project for more details)</h2>
 
 <details> 
    
