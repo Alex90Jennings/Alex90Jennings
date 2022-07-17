@@ -8,6 +8,8 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
 <summary>Click for contact information: </summary>
    
+   <p> </p>
+   
    💬 +393516140060 
    
    📫 aj0312@my.bristol.ac.uk 
