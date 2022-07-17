@@ -17,7 +17,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
 
 <details> 
    
-<summary>Click for my github stats: </summary>
+<summary>Click for my stacks and stats: </summary>
 
 **Current Stack:**
    
