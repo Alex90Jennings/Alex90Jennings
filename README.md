@@ -49,7 +49,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
 <p align="left">  
    <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
    <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
-    <a href="https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html" target="_blank" rel="noreferrer"> <img src="https://www.tradingview.com/pine-script-docs/en/v4/_images/Pine_Script_logo_text.png" alt="pinescript" width="40" height="40"/> </a> 
+    <a href="https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html" target="_blank" rel="noreferrer"> <img src="https://www.tradingview.com/pine-script-docs/en/v5/_images/Pine_Script_logo_small.png" alt="pinescript" width="40" height="40"/> </a> 
    </p>
     
 <p> </p>
