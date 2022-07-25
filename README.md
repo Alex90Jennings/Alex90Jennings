@@ -87,6 +87,20 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
 <summary>
    
+### A student management software [COHORT MANAGER - CLIENT](https://github.com/Alex90Jennings/team-dev-client-c5) / [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
+   
+</summary>
+   
+   - A team project with other members of my cohort at Boolean UK
+   - Used kanban and agile software development techniques to communicate and implement features
+   - Took project from a blank HTML file to a functional website, where teachers can organise and leave notes for students
+
+</details>
+
+<details> 
+   
+<summary>
+   
 ### A player vs computer blackjack game [BLACKJACK](https://github.com/Alex90Jennings/react-blackjack)
    
 </summary>
@@ -115,7 +129,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
 
 ### Here is what I am working on now:
 
-A team development simulation, working together with 10 other students to implement features for a teacher's portal, so that teachers can track and create notes on students [CLIENT](https://github.com/Alex90Jennings/team-dev-client-c5) / [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
+A multiplayer card game based on a variation of a game that some friends and I invented while travelling on one of the many beautiful long train routes in India. [CLIENT](https://github.com/Alex90Jennings/suits-client) / [SERVER](https://github.com/Alex90Jennings/suits-server)
 
 ### What's up next?:
 
