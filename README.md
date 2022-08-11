@@ -101,7 +101,7 @@ Since Feb 2022 I have been learning and exploring the possibilities in the world
    
 <summary>
    
-### A player vs computer blackjack game [BLACKJACK](https://github.com/Alex90Jennings/react-blackjack)
+### A player vs computer blackjack game [BLACKJACK](https://alex90jennings.github.io/blackjack-react-app/)
    
 </summary>
    
