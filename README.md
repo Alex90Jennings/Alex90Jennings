@@ -1,6 +1,6 @@
 # <h1 align="center"> 👋 Ciao, I'm Alex 👋</h1> 
 
-Since the start of 2022 I have been learning and exploring the possibilities in the world of code! 6 months ago I assumed that there was one correct way to code, now I understand that creativity and problem solving is just as important as knowledge of functions/methods. Over the next 6 months I plan to improve my problem solving with daily code war exercises, expand my knowledge in some new languages (Python, Pine Script, Typescript) and create some awesome applications/websites!
+Since the start of 2022 I have been learning and exploring the possibilities in the world of code! Currently working full time in a innovative team at ZIM, and will soon be adding a part time role at Lernilango. Both work environments are fast paced and professional, always looking to optimise their processes and create something special. My coding bootcamp taught me JS, HTML and CSS, and since then I've added React Native, Typescript and cloud based development.
 
 <p> </p>
 
