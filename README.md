@@ -14,7 +14,7 @@ Since the start of 2022 I have been learning and exploring the possibilities in 
    
    💬 +44 780 961 5364 
    
-   📫 aj0312@my.bristol.ac.uk 
+   📫 alex@zimconnections.com
    
    :computer: [LinkedIn](https://www.linkedin.com/in/alex-90-jennings/)
    
