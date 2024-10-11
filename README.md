@@ -89,13 +89,13 @@ Since the start of 2022 I have been learning and exploring the possibilities in 
    
 <summary>
    
-### A student management software [COHORT MANAGER - CLIENT](https://github.com/Alex90Jennings/team-dev-client-c5) / [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
+### Groceries Price Guessing Game [TOTAL GUESS](https://www.total-guess.com)
    
 </summary>
-   
-   - A team project with other members of my cohort at Boolean UK
-   - Used kanban and agile software development techniques to communicate and implement features
-   - Took project from a blank HTML file to a functional website, where teachers can organise and leave notes for students
+
+   - Game where the player guesses the price of 10 randomly selected UK supermarket items, receiving a score that is % error of their guesses
+   - React frontend deployed on Route 53 pointing to static files located in an S3 bucket
+   - Backend is a series of AWS Lambda functions, reducing cost and adding scalability
 
 </details>
 
