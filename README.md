@@ -14,7 +14,7 @@ Since the start of 2022 I have been learning and exploring the possibilities in 
    
    💬 +44 780 961 5364 
    
-   📫 aj0312@my.bristol.ac.uk 
+   📫 alex@zimconnections.com
    
    :computer: [LinkedIn](https://www.linkedin.com/in/alex-90-jennings/)
    
@@ -89,6 +89,20 @@ Since the start of 2022 I have been learning and exploring the possibilities in 
    
 <summary>
    
+### Groceries Price Guessing Game [TOTAL GUESS](https://www.total-guess.com)
+   
+</summary>
+
+   - Game where the player guesses the price of 10 randomly selected UK supermarket items, receiving a score that is % error of their guesses
+   - React frontend deployed on Route 53 pointing to static files located in an S3 bucket
+   - Backend is a series of AWS Lambda functions, reducing cost and adding scalability
+
+</details>
+
+<details> 
+   
+<summary>
+
 ### A player vs computer blackjack game [BLACKJACK](https://alex90jennings.github.io/blackjack-react-app/)
    
 </summary>
