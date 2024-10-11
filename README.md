@@ -102,7 +102,7 @@ Since the start of 2022 I have been learning and exploring the possibilities in 
 <details> 
    
 <summary>
-   
+
 ### A player vs computer blackjack game [BLACKJACK](https://alex90jennings.github.io/blackjack-react-app/)
    
 </summary>
