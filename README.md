@@ -89,20 +89,6 @@ Since the start of 2022 I have been learning and exploring the possibilities in 
    
 <summary>
    
-### A student management software [COHORT MANAGER - CLIENT](https://github.com/Alex90Jennings/team-dev-client-c5) / [SERVER](https://github.com/Alex90Jennings/team-dev-server-c5)
-   
-</summary>
-   
-   - A team project with other members of my cohort at Boolean UK
-   - Used kanban and agile software development techniques to communicate and implement features
-   - Took project from a blank HTML file to a functional website, where teachers can organise and leave notes for students
-
-</details>
-
-<details> 
-   
-<summary>
-   
 ### A player vs computer blackjack game [BLACKJACK](https://alex90jennings.github.io/blackjack-react-app/)
    
 </summary>
