@@ -38,6 +38,12 @@ never opened a terminal looks at the thing and says *"oh, that's actually really
 
 ## 🛠️ The stack
 
+> **First, a principle.** If a cheap managed service does the job well, I will use it rather than
+> write and maintain my own version. Holidu owns the booking calendar on Casalino, Appwrite owns auth
+> and storage on two projects, Vercel owns the CDN. **No need to reinvent the wheel**, and every
+> wheel I don't build is one I never have to patch at 2am. Custom code is for the part that is
+> actually mine to solve.
+
 <div align="center">
 
 **Languages**
@@ -412,7 +418,8 @@ run on every piece of work, big or small:
 flowchart LR
     A["🎯 Define<br/>the scope"] --> B["⚠️ Evaluate<br/>the risk"]
     B --> C["👥 Establish<br/>stakeholders"]
-    C --> D["⚙️ Execute"]
+    C --> R["🔍 Reuse<br/>before build"]
+    R --> D["⚙️ Execute"]
     D --> E["🔨 Pressure<br/>test"]
     E --> F["🚀 Deliver"]
     F --> G["💬 Communicate<br/>to client"]
@@ -425,6 +432,7 @@ flowchart LR
 | **🎯 Define the scope** | Write down what is in and, more importantly, what is out. Most project failures I have seen were scope failures wearing a technical costume. |
 | **⚠️ Evaluate the risk** | What breaks, who it hurts, what it costs, and what the rollback looks like. Decided *before* the first commit, not during the incident. |
 | **👥 Establish stakeholders** | Who signs off, who is affected, who has to maintain it at 2am. Surfacing the quiet stakeholder early is worth a week of rework. |
+| **🔍 Reuse before build** | In order: search the codebase for something that already does this, then look for a service that does it well and cheaply, and only then write something custom. Every line I don't write is a line I never have to debug, document or migrate. Being **lazy in the right direction** is usually the best engineering decision available. |
 | **⚙️ Execute** | Build it. Claude helps here, and I treat AI as a very fast, very literal pair programmer that still needs someone with judgement holding the wheel. |
 | **🔨 Pressure test** | Tests, edge cases, and honestly trying to break my own work before a user does it for free. |
 | **🚀 Deliver** | Shipped, monitored, documented. "It works on my machine" is a confession, not a status update. |
