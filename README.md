@@ -61,7 +61,6 @@ never opened a terminal looks at the thing and says *"oh, that's actually really
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
@@ -177,8 +176,9 @@ is a README that has given up.
 My day job: a consumer eSIM platform selling international data, calls and connectivity plans, with
 paying customers on it, a **React Native app on iOS and Android**, white-label web platforms for
 partner brands including **SoftBank** and **Akwaaba**, and a business dashboard behind all of it.
-The backend is a set of separate **Node.js services**, an API, a provider connector and a
-notifications service, each deployed and reviewed on its own.
+The backend is a set of separate **Node.js services**, a **NestJS** API, an **Express** provider
+connector and a notifications service, each deployed and code reviewed on its own, talking over
+**REST** and **WebSockets** (Socket.IO) where the client needs pushing rather than polling.
 
 A **NestJS** API on **EC2** in private subnets, behind an application load balancer, behind
 **CloudFront and AWS WAF**, with **Cloudflare** as authoritative DNS and **RDS PostgreSQL** running
@@ -226,10 +226,11 @@ flowchart TD
 | **High availability & disaster recovery** | RDS runs **Multi-AZ** with a synchronous standby and **automated failover**, backed by automated backups and **point-in-time recovery**. Multi-AZ buys availability, not scale, which is what a read replica is for. |
 | **Network design** | Public and private subnets spread across multiple **Availability Zones**. The API holds **no public IP** and is reachable only through the load balancer. **Security groups** are stateful and reference each other rather than CIDR ranges; **NACLs** are stateless and need a rule in each direction. |
 | **Identity & least privilege** | **Amazon Cognito** for end-user **authentication** and token issue, role checks for **authorisation**, **IAM instance profiles** and **STS** for short-lived auto-rotated service credentials, and **Secrets Manager** for the rest. No long-lived key on disk. |
-| **Edge, CDN & security** | **CloudFront** answers from the nearest edge location with **AWS WAF** in front, so static assets never reach the origin. TLS terminates at the edge and again at the load balancer, keeping traffic **encrypted in transit** throughout. A managed rule overridden to **Count** observes without blocking, which is the trap worth knowing about. |
+| **Edge, CDN & security** | **ACM** issues the certificates. **CloudFront** answers from the nearest edge location with **AWS WAF** in front, so static assets never reach the origin. TLS terminates at the edge and again at the load balancer, keeping traffic **encrypted in transit** throughout. A managed rule overridden to **Count** observes without blocking, which is the trap worth knowing about. |
 | **Observability & monitoring** | **Elastic APM** on the Node services and **RUM** in the browser, with traces, errors and latency in **Kibana**. |
 | **Serverless & async** | **Lambda** and **SQS** for work that should never block a request, **SNS** and **SES** for push and email. |
-| **Delivery** | **Docker**, **GitHub Actions** pipelines, and **Linux** servers running the API under PM2. |
+| **Delivery** | **Docker**, **GitHub Actions** pipelines, **Bash** tooling, and **Linux** servers running the API under PM2. |
+| **Cost optimisation** | Reading the bill is part of the job. Auditing my own account against **Cost Explorer** turned up an unattached volume, dead hosted zones and an unused secret, and removing them cut it by 99%. |
 
 
 <br />
@@ -373,7 +374,7 @@ Operafy hotlinked its recordings from Wikimedia Commons, so the player broke whe
 re-encoded and the bandwidth was somebody else's. This is the **infrastructure as code** that fixed
 it: a private **S3** bucket behind **CloudFront**, with an **Origin Access Control** and a bucket
 policy naming that one distribution, so the objects are unreachable any other way. Versioned,
-encrypted, and swept by a lifecycle rule, because versioning without expiry bills forever.
+**encrypted at rest**, and swept by a lifecycle rule, because versioning without expiry bills forever.
 
 **State** lives in S3 with native lock files rather than a DynamoDB table. **CI** runs
 `fmt`, `validate` and `plan` on every pull request, comments the plan back, and applies the
@@ -416,11 +417,11 @@ API Gateways.
 
 Built for **Software Engineering and Agile Assignment**, a Level 5, 20-credit module on my degree
 apprenticeship, and my first time writing Python. Coming from JavaScript, the interesting part was
-learning how Python does things: blueprints instead of routers, SQLAlchemy models instead of
+learning how **Flask** does things: blueprints instead of routers, **SQLAlchemy** models instead of
 hand-written SQL, decorators for access control, pytest for everything.
 
 Two roles, an admin approval gate for self-registered users, request-and-approve flows for eSIMs and
-top-ups, structured request logging, and **384 passing tests** behind a pipeline that runs the suite
+top-ups, structured request logging, and **384 passing unit and integration tests** behind a pipeline that runs the suite
 on every push and redeploys `main` only when it's green. Planned with user stories, sprints and a
 Kanban board, and the accompanying report is honest that the Agile practices were applied
 informally rather than systematically, which is exactly the reflection the brief asked for.
