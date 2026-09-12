@@ -115,7 +115,7 @@ Optimised for **shipping this weekend**, not for a headcount.
 - **Tailwind CSS**: or hand-written CSS when the design deserves it
 - **Vercel**: push to `main`, it's live, free tier, preview deploys on every PR
 - **Neon / Render**: when a project genuinely needs Postgres and a server
-- **GitHub Actions**: tests on every push, deploy only when green
+- **GitHub Actions**: lint, typecheck, tests and build on every push, deploy only when green
 
 </td>
 <td width="50%" valign="top">
@@ -236,6 +236,7 @@ flowchart TD
 
 [![Play](https://img.shields.io/badge/▶_Play_now-www.total--guess.com-40E0D0?style=for-the-badge&labelColor=36454F)](https://www.total-guess.com)
 [![Repo](https://img.shields.io/badge/Source-total--guess-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/total-guess)
+[![CI](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml)
 
 ![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![React Router](https://img.shields.io/badge/React_Router_6-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
@@ -257,6 +258,11 @@ but never the prices. Guest play is saved to the browser and migrated into your 
 later sign up. Get more than 35% out and the game stops counting; it just files you in the column of
 shame, visible from across the room.
 
+It first ran on AWS, with the domain and its hosted zone in **Route 53**. Once the game was live it
+was obvious the hosted zone and query charges were the entire bill for something with no revenue
+behind it, so I moved DNS and hosting to a free tier and kept the domain. **Knowing when not to
+reach for a managed service** is as much a part of cloud work as knowing how to wire one up.
+
 <br />
 
 ### 🏡 Il Casino Casalino: *a real B&B, and the site built to fill it*
@@ -269,6 +275,7 @@ shame, visible from across the room.
 
 [![Live](https://img.shields.io/badge/▶_Visit-www.ilcasinocasalino.com-2B2B2B?style=for-the-badge&labelColor=9C8F82)](https://www.ilcasinocasalino.com)
 [![Repo](https://img.shields.io/badge/Source-il--casalino-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/il-casalino)
+[![CI](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml)
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -304,6 +311,7 @@ which means no card data, no availability calendar to keep in sync, and no payme
 
 [![Listen](https://img.shields.io/badge/▶_Listen_now-operafy--music.vercel.app-A7F62E?style=for-the-badge&labelColor=141922)](https://operafy-music.vercel.app)
 [![Repo](https://img.shields.io/badge/Source-operafy--react-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/operafy-react)
+[![CI](https://github.com/Alex90Jennings/operafy-react/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/operafy-react/actions/workflows/ci.yml)
 
 ![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![React Router](https://img.shields.io/badge/React_Router_7-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
@@ -341,6 +349,7 @@ Spotify logo.
 
 [![Live](https://img.shields.io/badge/▶_Live_demo-agile--assignment.onrender.com-7C3AED?style=for-the-badge&labelColor=2E1065)](https://agile-assignment.onrender.com)
 [![Repo](https://img.shields.io/badge/Source-agile--assignment-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/agile-assignment)
+[![CI](https://github.com/Alex90Jennings/agile-assignment/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/agile-assignment/actions/workflows/ci.yml)
 
 ![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask_3-000000?style=flat-square&logo=flask&logoColor=white)
