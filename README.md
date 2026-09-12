@@ -6,7 +6,7 @@
 
 <br />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex_Jennings_Software-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-90-jennings/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex_Jennings_Software-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-jennings-software/)
 [![Email](https://img.shields.io/badge/Email-aj0312%40my.bristol.ac.uk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aj0312@my.bristol.ac.uk)
 [![Location](https://img.shields.io/badge/London,_UK-012169?style=for-the-badge&logo=googlemaps&logoColor=white)](#-beyond-the-terminal)
 [![Profile views](https://komarev.com/ghpvc/?username=Alex90Jennings&style=for-the-badge&color=38BDAE&label=VISITORS)](https://github.com/Alex90Jennings)
@@ -23,7 +23,7 @@ const alex = {
   since:     2022,
   building:  ["eSIM platforms", "React Native apps", "AWS infrastructure"],
   stack:     ["TypeScript", "React", "Next.js", "NestJS", "Node.js", "Python", "AWS"],
-  studying:  ["AWS Solutions Architect Associate", "Digital & Technology Solutions Professional (L6)"],
+  studying:  ["AWS Solutions Architect Associate", "BSc Digital & Technology Solutions (Software Engineer)"],
   languages: ["English (native)", "Italian (B1, climbing)", "JavaScript (fluent, mostly)"],
 };
 ```
@@ -160,7 +160,7 @@ is a README that has given up.
 <div align="center">
 
 [![ZIM app](https://img.shields.io/badge/App_Store-ZIM_eSIM-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114)
-[![ZIM SBB app](https://img.shields.io/badge/App_Store-ZIM_SBB-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/us/app/zim-sbb-esim-data-plans/id6469112236)
+[![ZIM@SBB app](https://img.shields.io/badge/App_Store-ZIM%40SBB-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/us/app/zim-sbb-esim-data-plans/id6469112236)
 [![SoftBank](https://img.shields.io/badge/Live-SoftBank_plans-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white)](https://softbank.zimconnections.com/en/plans)
 [![Akwaaba](https://img.shields.io/badge/Live-Akwaaba_SIM-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white)](https://akwaabasim.com/en/plans)
 
@@ -175,7 +175,8 @@ is a README that has given up.
 
 My day job: a consumer eSIM platform selling international data, calls and connectivity plans, with
 paying customers on it, a **React Native app on iOS and Android**, white-label web platforms for
-partner brands including **SoftBank** and **Akwaaba**, and a business dashboard behind all of it.
+partner brands including **Swiss Federal Railways (SBB)**, **SoftBank** and **Akwaaba**, and a
+business dashboard behind all of it.
 The backend is a set of separate **Node.js services**, a **NestJS** API, an **Express** provider
 connector and a notifications service, each deployed and code reviewed on its own, talking over
 **REST** and **WebSockets** (Socket.IO) where the client needs pushing rather than polling.
@@ -453,7 +454,7 @@ informally rather than systematically, which is exactly the reflection the brief
 | ☁️ | **AWS Certified Cloud Practitioner** | Earned. The foundations: services, pricing, and the shared responsibility model. |
 | 🤖 | **AWS Certified AI Practitioner** | Earned. Generative AI and ML on AWS, and where it genuinely belongs in a product. |
 | 🏛️ | **AWS Certified Solutions Architect (Associate)** | **In progress.** Currently the reason my evenings look the way they do. |
-| 💻 | **Digital & Technology Solutions Professional (Level 6)** | Degree apprenticeship covering software engineering, Agile, data, cybersecurity and cloud, studied while working full time on a production platform. The best of both: the theory on Monday, the production incident on Tuesday. |
+| 💻 | **BSc Digital & Technology Solutions (Software Engineer)** | University of Roehampton, degree apprenticeship, 2024 to 2027. Software engineering, Agile, data, cybersecurity and cloud, studied while working full time on a production platform. The best of both: the theory on Monday, the production incident on Tuesday. |
 | 📊 | **BSc Economics** | University of Bristol. Econometrics, modelling and the habit of asking *"compared to what, and at what cost?"*, which turns out to be the single most useful question in software architecture too. |
 
 
@@ -557,7 +558,7 @@ hobby half of the picture. The enterprise half is in the App Store.</em></sub>
 I'm always happy to talk about **AWS architecture**, **React and React Native**, whether cricket is
 a sport or a lifestyle, and what you should be planting this month.
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-90-jennings/)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-jennings-software/)
 [![Email](https://img.shields.io/badge/Send_an_email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aj0312@my.bristol.ac.uk)
 
 <br />
