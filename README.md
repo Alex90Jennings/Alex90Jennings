@@ -87,6 +87,7 @@ never opened a terminal looks at the thing and says *"oh, that's actually really
 **Cloud & DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
@@ -120,6 +121,7 @@ Optimised for **shipping this weekend**, not for a headcount.
 - **Appwrite**: auth, database and storage without writing a backend I'd then have to babysit
 - **Tailwind CSS**: or hand-written CSS when the design deserves it
 - **Vercel**: push to `main`, it's live, free tier, preview deploys on every PR
+- **Terraform**: infrastructure as code for anything with more than one moving part
 - **Neon / Render**: when a project genuinely needs Postgres and a server
 - **GitHub Actions**: lint, typecheck, tests and build on every push, deploy only when green
 
@@ -148,7 +150,7 @@ Optimised for **the 2am phone call never happening**.
 
 ## 🚀 Projects
 
-The platform I work on every day, then four things I built because I wanted them to exist. Every
+The platform I work on every day, then the things I built because I wanted them to exist. Every
 one is deployed, and every one has a GIF, because a README that describes a UI instead of showing it
 is a README that has given up.
 
@@ -342,6 +344,46 @@ Wikimedia Commons by a Python script: Caruso, Gigli, Ponselle, original Ricordi 
 Hohenstein, Schinkel's 1815 *Zauberflöte* stage design. The in-app credits page links every file to
 its source and licence. The copyrighted album sleeves went in the bin, along with the
 Spotify logo.
+
+<br />
+
+### ☁️ operafy-infra: *the CDN behind Operafy, in Terraform*
+
+<div align="center">
+
+[![Repo](https://img.shields.io/badge/Source-operafy--infra-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/operafy-infra)
+[![CI](https://github.com/Alex90Jennings/operafy-infra/actions/workflows/terraform.yml/badge.svg)](https://github.com/Alex90Jennings/operafy-infra/actions/workflows/terraform.yml)
+
+![Terraform](https://img.shields.io/badge/Terraform-1.16-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![S3](https://img.shields.io/badge/S3-private_bucket-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-OAC-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-least_privilege-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white)
+![OIDC](https://img.shields.io/badge/GitHub_OIDC-no_stored_keys-2088FF?style=flat-square&logo=github&logoColor=white)
+
+</div>
+
+Operafy hotlinked its recordings from Wikimedia Commons, so the player broke whenever a file was
+re-encoded and the bandwidth was somebody else's. This is the **infrastructure as code** that fixed
+it: a private **S3** bucket behind **CloudFront**, with an **Origin Access Control** and a bucket
+policy naming that one distribution, so the objects are unreachable any other way. Versioned,
+encrypted, and swept by a lifecycle rule, because versioning without expiry bills forever.
+
+**State** lives in S3 with native lock files rather than a DynamoDB table. **CI** runs
+`fmt`, `validate` and `plan` on every pull request, comments the plan back, and applies the
+**reviewed plan artefact** on merge behind an approval gate, authenticating through **GitHub OIDC**
+with **no AWS access key** anywhere in the repository. The deploy role is scoped to named ARNs and
+cannot rewrite its own permissions. The provider pins `allowed_account_ids`, because this machine
+also holds production credentials and a wrong profile should abort rather than apply.
+
+Building it turned up a genuinely instructive bug: every role assumption was refused while the trust
+policy looked correct, because this account emits a **customised OIDC subject claim** carrying the
+numeric owner and repository IDs, which the documented pattern never matches. CloudTrail redacts the
+parameters on a failed authorisation, so the answer only came from printing the token's own claims.
+Pinning those immutable IDs is the harder-to-abuse form anyway. The write-up is in the README.
+
+While I was in the account I audited it against Cost Explorer and removed **$28 a year** of orphaned
+resources: an 8 GB volume detached since 2023, dead hosted zones, an unused secret and two abandoned
+API Gateways.
 
 <br />
 
