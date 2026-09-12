@@ -167,8 +167,10 @@ is a README that has given up.
 </div>
 
 My day job: a consumer eSIM platform selling international data, calls and connectivity plans, with
-paying customers on it, a **React Native app in both stores**, white-label web platforms for partner
-brands including **SoftBank** and **Akwaaba**, and a business dashboard behind all of it.
+paying customers on it, a **React Native app on iOS and Android**, white-label web platforms for
+partner brands including **SoftBank** and **Akwaaba**, and a business dashboard behind all of it.
+The backend is a set of separate **Node.js services**, an API, a provider connector and a
+notifications service, each deployed and reviewed on its own.
 
 A **NestJS** API on **EC2** in private subnets, behind an application load balancer, behind
 **CloudFront and AWS WAF**, with **Cloudflare** as authoritative DNS and **RDS PostgreSQL** running
@@ -176,33 +178,27 @@ Multi-AZ. The interesting engineering in white-labelling is not the theming. It 
 partner-specific behaviour out of the core, so that adding the *next* partner is a configuration
 change rather than a fork.
 
-<details>
-<summary><strong>The architecture, drawn out</strong> (click to expand)</summary>
-
-<br />
-
 ```mermaid
 flowchart TD
-    U["📱 Mobile app<br/><i>React Native</i>"]
+    U["📱 Mobile app<br/><i>React Native · iOS + Android</i>"]
     W["🌐 Web platforms<br/><i>Next.js</i>"]
     DNS["☁️ Cloudflare DNS<br/><i>authoritative</i>"]
-    CF["🛡️ CloudFront + AWS WAF<br/><i>edge · TLS terminates · 600+ PoPs</i>"]
+    CF["🛡️ CloudFront + AWS WAF<br/><i>CDN · edge · TLS terminates</i>"]
+    COG["🔑 Amazon Cognito<br/><i>user pools · token issue</i>"]
 
-    subgraph VPC ["🔒 AWS VPC · eu-west-1 Ireland"]
+    subgraph VPC ["🔒 AWS VPC"]
         direction TB
         IGW["Internet Gateway"]
-        subgraph PUB ["Public subnets · 3 AZs"]
-            ALB["⚖️ Application Load Balancer<br/><i>Layer 7 · TLS #2 · health checks</i>"]
+        subgraph PUB ["Public subnets · multiple AZs"]
+            ALB["⚖️ Application Load Balancer<br/><i>Layer 7 · health checks</i>"]
         end
         subgraph PRIV ["Private subnets · no public IP"]
-            EC2["🖥️ EC2 · NestJS API<br/><i>Node.js · PM2 · IAM instance profile</i>"]
-            RDS[("🗄️ RDS PostgreSQL 17.9<br/><i>Multi-AZ · automated failover</i>")]
+            EC2["🖥️ EC2 · NestJS API<br/><i>Linux · PM2 · IAM instance profile</i>"]
+            RDS[("🗄️ RDS PostgreSQL<br/><i>Multi-AZ · automated failover</i>")]
         end
     end
 
-    S3["📦 S3"]
-    LMB["⚡ Lambda"]
-    SNS["🔔 Notifications service"]
+    MAN["🧰 Managed services<br/><i>Secrets Manager · S3 · Lambda<br/>SQS · SNS · SES · Elastic APM</i>"]
 
     U -->|"HTTPS"| CF
     W -->|"HTTPS"| CF
@@ -211,12 +207,22 @@ flowchart TD
     IGW --> ALB
     ALB --> EC2
     EC2 --> RDS
-    EC2 -.-> S3
-    EC2 -.-> LMB
-    EC2 -.-> SNS
+    EC2 -.->|"verify tokens"| COG
+    EC2 -.-> MAN
 ```
 
-</details>
+**The cloud engineering, specifically**
+
+| Area | What that means here |
+| :-- | :-- |
+| **High availability & disaster recovery** | RDS runs **Multi-AZ** with a synchronous standby and **automated failover**, backed by automated backups and **point-in-time recovery**. Multi-AZ buys availability, not scale, which is what a read replica is for. |
+| **Network design** | Public and private subnets spread across multiple **Availability Zones**. The API holds **no public IP** and is reachable only through the load balancer. **Security groups** are stateful and reference each other rather than CIDR ranges; **NACLs** are stateless and need a rule in each direction. |
+| **Identity & least privilege** | **Amazon Cognito** for end-user **authentication** and token issue, role checks for **authorisation**, **IAM instance profiles** and **STS** for short-lived auto-rotated service credentials, and **Secrets Manager** for the rest. No long-lived key on disk. |
+| **Edge, CDN & security** | **CloudFront** answers from the nearest edge location with **AWS WAF** in front, so static assets never reach the origin. TLS terminates at the edge and again at the load balancer, keeping traffic **encrypted in transit** throughout. A managed rule overridden to **Count** observes without blocking, which is the trap worth knowing about. |
+| **Observability & monitoring** | **Elastic APM** on the Node services and **RUM** in the browser, with traces, errors and latency in **Kibana**. |
+| **Serverless & async** | **Lambda** and **SQS** for work that should never block a request, **SNS** and **SES** for push and email. |
+| **Delivery** | **Docker**, **GitHub Actions** pipelines, and **Linux** servers running the API under PM2. |
+
 
 <br />
 
