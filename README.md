@@ -345,6 +345,13 @@ Hohenstein, Schinkel's 1815 *Zauberflöte* stage design. The in-app credits page
 its source and licence. The copyrighted album sleeves went in the bin, along with the
 Spotify logo.
 
+And that, I said, was that. A finished project, left alone as a reminder of where I started.
+
+I lied. The loading of the images and audio was taking far too long, because every file was hotlinked
+straight from Wikimedia Commons: someone else's bandwidth, someone else's uptime, and a URL that
+could change without warning and take the player down with it. So I went back a third time and built
+the thing below.
+
 <br />
 
 ### ☁️ operafy-infra: *the CDN behind Operafy, in Terraform*
