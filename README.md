@@ -350,7 +350,7 @@ Spotify logo.
 
 </div>
 
-Built for **Software Engineering and Agile (QAC020N227S)**, a Level 5, 20-credit module on my degree
+Built for **Software Engineering and Agile Assignment**, a Level 5, 20-credit module on my degree
 apprenticeship, and my first time writing Python. Coming from JavaScript, the interesting part was
 learning how Python does things: blueprints instead of routers, SQLAlchemy models instead of
 hand-written SQL, decorators for access control, pytest for everything.
