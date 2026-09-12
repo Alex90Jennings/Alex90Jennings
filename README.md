@@ -19,7 +19,7 @@
 
 ```ts
 const alex = {
-  role:      "Full-Stack Developer & Cloud Engineer @ ZIM Connections",
+  role:      "Full-Stack Developer @ ZIM Connections",
   since:     2022,
   building:  ["eSIM platforms", "React Native apps", "AWS infrastructure"],
   stack:     ["TypeScript", "React", "Next.js", "NestJS", "Node.js", "Python", "AWS"],
