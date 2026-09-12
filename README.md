@@ -1,177 +1,497 @@
-# <h1 align="center"> 👋 Ciao, I'm Alex 👋</h1> 
+<div align="center">
 
-Since the start of 2022 I have been learning and exploring the possibilities in the world of code! Currently working full time in a innovative team at ZIM, and will soon be adding a part time role at Lernilango. Both work environments are fast paced and professional, always looking to optimise their processes and create something special. My coding bootcamp taught me JS, HTML and CSS, and since then I've added React Native, Typescript and cloud based development.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Alex%20Jennings&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Developer%20%C2%B7%20Cloud%20Engineer&descAlignY=56&descSize=18" alt="Alex Jennings, Full-Stack Developer and Cloud Engineer" width="100%" />
 
-<p> </p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=38BDAE&center=true&vCenter=true&width=760&lines=React+%C2%B7+Next.js+%C2%B7+NestJS+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+AWS;Four+years+in%2C+still+setting+the+alarm+early+to+keep+building;Economics+graduate+who+found+a+much+better+use+for+the+maths" alt="React, Next.js, NestJS, TypeScript, Python, AWS" />
 
-<details> 
-   
-<summary>Click for contact information: </summary>
-   
-<p> </p>
-   
-   💬 +39 351 614 0060 
-   
-   💬 +44 780 961 5364 
-   
-   📫 alex@zimconnections.com
-   
-   :computer: [LinkedIn](https://www.linkedin.com/in/alex-90-jennings/)
-   
-<p> </p>
-   
-</details>  
+<br />
 
-<p> </p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex_Jennings_Software-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-90-jennings/)
+[![Email](https://img.shields.io/badge/Email-aj0312%40my.bristol.ac.uk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aj0312@my.bristol.ac.uk)
+[![Location](https://img.shields.io/badge/London,_UK-012169?style=for-the-badge&logo=googlemaps&logoColor=white)](#-beyond-the-terminal)
+[![Profile views](https://komarev.com/ghpvc/?username=Alex90Jennings&style=for-the-badge&color=38BDAE&label=VISITORS)](https://github.com/Alex90Jennings)
 
-<details> 
-   
-<summary>Click for my stacks and stats: </summary>
-   
-<p> </p>
+</div>
 
-**Current Stack:**
-   
-<p align="left"> 
-    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-    <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/morbargig/morbargig/master/assets/Express.jpg" alt="express" width="40" height="40"/> 
-   </a> 
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-    <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-    <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
-   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://jasmine.github.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jasmine/jasmine-icon.svg" alt="jasmine" width="40" height="40"/> </a> 
-   <a href="https://www.cypress.io" target="_blank" rel="noreferrer"> <img src="https://logodix.com/logo/1861712.png" alt="cypress" width="40" height="40"/> </a> 
-   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" alt="git" width="40" height="40"/> </a> 
+---
 
-   </p>
-   
-**Looking to add soon:**
-   
-<p align="left">  
-   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-    <a href="https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html" target="_blank" rel="noreferrer"> <img src="https://www.tradingview.com/pine-script-docs/en/v5/_images/Pine_Script_logo_small.png" alt="pinescript" width="40" height="40"/> </a> 
-   </p>
-    
-<p> </p>
-  
-  <div align="center"> 
-     <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img align="center" src="https://github-readme-stats.vercel.app/api?username=Alex90Jennings&theme=tokyonight" />
-    </a>
-    <p></p>
-  </div>
-  
+## 👋 `whoami`
 
-  
-  <div align="center"> 
-    <a href="https://git.io/streak-stats">
-      <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=Alex90Jennings&theme=tokyonight&date_format=j%20M%5B%20Y%5D" />
-    </a>
-    <p></p>
-  </div>
-   
-  <div align="center"> 
-    <a href="https://github.com/anuraghazra/convoychat">
-      <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alex90Jennings&theme=tokyonight&layout=compact" />
-    </a>
-    <p></p>
-  </div>
-   
-<p> </p>
+```ts
+const alex = {
+  role:      "Full-Stack Developer & Cloud Engineer @ ZIM Connections",
+  since:     2022,
+  building:  ["eSIM platforms", "React Native apps", "AWS infrastructure"],
+  stack:     ["TypeScript", "React", "Next.js", "NestJS", "Node.js", "Python", "AWS"],
+  studying:  ["AWS Solutions Architect Associate", "Digital & Technology Solutions Professional (L6)"],
+  languages: ["English (native)", "Italian (B1, climbing)", "JavaScript (fluent, mostly)"],
+};
+```
+
+An economics degree, then a bootcamp at the start of 2022, and I have been shipping production
+software ever since. The work runs from the scoping call through the architecture diagram to the
+pull request, and I genuinely like all of it. My favourite part is still the moment someone who has
+never opened a terminal looks at the thing and says *"oh, that's actually really nice."*
+
+
+---
+
+## 🛠️ The stack
+
+<div align="center">
+
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+
+**Data**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white)
+
+**Cloud & DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
+
+**Testing & tooling**
+
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-69D3A7?style=for-the-badge&logo=cypress&logoColor=black)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏠 For personal projects
+
+Optimised for **shipping this weekend**, not for a headcount.
+
+- **Next.js / React**: App Router when the project wants SSR and SEO, Create React App when it genuinely doesn't
+- **TypeScript**: increasingly non-negotiable
+- **Appwrite**: auth, database and storage without writing a backend I'd then have to babysit
+- **Tailwind CSS**: or hand-written CSS when the design deserves it
+- **Vercel**: push to `main`, it's live, free tier, preview deploys on every PR
+- **Neon / Render**: when a project genuinely needs Postgres and a server
+- **GitHub Actions**: tests on every push, deploy only when green
+
+</td>
+<td width="50%" valign="top">
+
+### 🏢 For enterprise
+
+Optimised for **the 2am phone call never happening**.
+
+- **NestJS on Node.js**: typed, modular, boring in the best way
+- **PostgreSQL on RDS**: Multi-AZ, automated backups, point-in-time recovery
+- **React Native**: one codebase, two app stores, one release process
+- **AWS**: VPC, EC2, ALB, CloudFront, WAF, Lambda, S3, RDS, IAM, Route 53
+- **Cloudflare**: authoritative DNS in front of the whole thing
+- **Redis**: caching and the jobs that shouldn't block a request
+- **Spring Boot**: where the JVM is the right answer
+- **Docker + CI/CD**: reproducible, reviewable, reversible
+
+</td>
+</tr>
+</table>
+
+
+---
+
+## 🚀 Projects
+
+The platform I work on every day, then four things I built because I wanted them to exist. Every
+one is deployed, and every one has a GIF, because a README that describes a UI instead of showing it
+is a README that has given up.
+
+<br />
+
+### 📡 ZIM Connections: *eSIM platform, in production, in both app stores*
+
+<div align="center">
+
+[![ZIM app](https://img.shields.io/badge/App_Store-ZIM_eSIM-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114)
+[![ZIM SBB app](https://img.shields.io/badge/App_Store-ZIM_SBB-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/us/app/zim-sbb-esim-data-plans/id6469112236)
+[![SoftBank](https://img.shields.io/badge/Live-SoftBank_plans-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white)](https://softbank.zimconnections.com/en/plans)
+[![Akwaaba](https://img.shields.io/badge/Live-Akwaaba_SIM-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white)](https://akwaabasim.com/en/plans)
+
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+</div>
+
+My day job: a consumer eSIM platform selling international data, calls and connectivity plans, with
+paying customers on it, a **React Native app in both stores**, white-label web platforms for partner
+brands including **SoftBank** and **Akwaaba**, and a business dashboard behind all of it.
+
+A **NestJS** API on **EC2** in private subnets, behind an application load balancer, behind
+**CloudFront and AWS WAF**, with **Cloudflare** as authoritative DNS and **RDS PostgreSQL** running
+Multi-AZ. The interesting engineering in white-labelling is not the theming. It is keeping
+partner-specific behaviour out of the core, so that adding the *next* partner is a configuration
+change rather than a fork.
+
+<details>
+<summary><strong>The architecture, drawn out</strong> (click to expand)</summary>
+
+<br />
+
+```mermaid
+flowchart TD
+    U["📱 Mobile app<br/><i>React Native</i>"]
+    W["🌐 Web platforms<br/><i>Next.js</i>"]
+    DNS["☁️ Cloudflare DNS<br/><i>authoritative</i>"]
+    CF["🛡️ CloudFront + AWS WAF<br/><i>edge · TLS terminates · 600+ PoPs</i>"]
+
+    subgraph VPC ["🔒 AWS VPC · eu-west-1 Ireland"]
+        direction TB
+        IGW["Internet Gateway"]
+        subgraph PUB ["Public subnets · 3 AZs"]
+            ALB["⚖️ Application Load Balancer<br/><i>Layer 7 · TLS #2 · health checks</i>"]
+        end
+        subgraph PRIV ["Private subnets · no public IP"]
+            EC2["🖥️ EC2 · NestJS API<br/><i>Node.js · PM2 · IAM instance profile</i>"]
+            RDS[("🗄️ RDS PostgreSQL 17.9<br/><i>Multi-AZ · automated failover</i>")]
+        end
+    end
+
+    S3["📦 S3"]
+    LMB["⚡ Lambda"]
+    SNS["🔔 Notifications service"]
+
+    U -->|"HTTPS"| CF
+    W -->|"HTTPS"| CF
+    DNS -.->|"CNAME"| CF
+    CF -->|"HTTPS"| IGW
+    IGW --> ALB
+    ALB --> EC2
+    EC2 --> RDS
+    EC2 -.-> S3
+    EC2 -.-> LMB
+    EC2 -.-> SNS
+```
 
 </details>
 
-## <h2 align="center">PAST PROJECTS: (click individual project for more details)</h2>
+<br />
 
-<details> 
-   
-<summary>
-   
-### Groceries Price Guessing Game [TOTAL GUESS](https://www.total-guess.com)
-   
-</summary>
+### 🛒 Total Guess: *guess the total, one basket a day*
 
-   - Game where the player guesses the price of 10 randomly selected UK supermarket items, receiving a score that is % error of their guesses
-   - React frontend deployed on Route 53 pointing to static files located in an S3 bucket
-   - Backend is a series of AWS Lambda functions, reducing cost and adding scalability
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/total-guess.gif" width="88%" alt="Total Guess demo: guessing ten supermarket items, the running total, the result and the shareable receipt" />
+</div>
 
-</details>
+<div align="center">
 
-<details> 
-   
-<summary>
+[![Play](https://img.shields.io/badge/▶_Play_now-www.total--guess.com-40E0D0?style=for-the-badge&labelColor=36454F)](https://www.total-guess.com)
+[![Repo](https://img.shields.io/badge/Source-total--guess-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/total-guess)
 
-### A player vs computer blackjack game [BLACKJACK](https://alex90jennings.github.io/blackjack-react-app/)
-   
-</summary>
-   
-   - A player can play a hand vs the dealer, and bet on the result
-   - My first full stack application built from scratch
-   - Implementing a finite state machine would make the game process and expansion easier to manage
+![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Router](https://img.shields.io/badge/React_Router_6-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![268 products](https://img.shields.io/badge/catalogue-268_products-36454F?style=flat-square)
 
-</details>
+</div>
 
-<details> 
-   
-<summary>
-   
-### A spotify clone with an opera theme [OPERAFY](https://github.com/Alex90Jennings/boolean-uk-html-spotify) 
-      
-</summary>
-   
-   - HMTL and CSS clone of spotify
-   - Prastising CSS grids
-   - Soon I will add JS to add functionality to the clone
+I used to add up the shopping in my head on the way round and commit to a number before the till. In
+a Sainsbury's in 2009 I got it **exactly right, to the penny**, and nobody in the queue understood
+why I was so happy. This is that habit turned into a daily game.
 
-</details>
+Ten real products, one guess each, the same basket for everyone, reset at midnight UTC. A
+**seeded shuffle keyed to the day number** guarantees no repeats within a game and works through the
+whole catalogue before any basket comes round again, which is 26 unique games. There are nine badges, a full
+statistics panel with streaks and error bias, and an emoji-grid share that gives away your *shape*
+but never the prices. Guest play is saved to the browser and migrated into your account if you
+later sign up. Get more than 35% out and the game stops counting; it just files you in the column of
+shame, visible from across the room.
 
-## <h2 align="center">FUTURE PROJECTS: </h2> 
+<br />
 
-### Here is what I am working on now:
+### 🏡 Il Casino Casalino: *a real B&B, and the site built to fill it*
 
-A multiplayer card game based on a variation of a game that some friends and I invented while travelling on one of the many beautiful long train routes in India. [CLIENT](https://github.com/Alex90Jennings/suits-client) / [SERVER](https://github.com/Alex90Jennings/suits-server)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/casalino.gif" width="88%" alt="Il Casino Casalino demo: hero, gallery, the four-room selector and the inline availability check" />
+</div>
 
-### What's up next?:
+<div align="center">
 
-Using a finite state machine (XState) I plan to code a variation of a game card that I invented with some friends on a long train ride in India
+[![Live](https://img.shields.io/badge/▶_Visit-www.ilcasinocasalino.com-2B2B2B?style=for-the-badge&labelColor=9C8F82)](https://www.ilcasinocasalino.com)
+[![Repo](https://img.shields.io/badge/Source-il--casalino-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/il-casalino)
 
-### And after?:
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-Learn Pinescript to develop some custom indicators to assist decision making while trading the financial markets, based on Fibonacci and volume spread analysis
+</div>
+
+Client work for a four-room B&B in Francavilla Fontana, Puglia. The brief was narrow and sharp: make
+the property look as good as it does in person, load fast on holiday Wi-Fi, and get a visitor from
+*"this looks nice"* to an availability check **in one scroll**.
+
+Video sells a stay in a way stills don't, so the engineering went into making it affordable: 4K
+originals never reach the repo, a deterministic `ffmpeg` transcode caps everything at 1280px with no
+audio track and `+faststart`, and every room clip lands **under 1 MB**. `LazyVideo` mounts a
+`<video>` only when its slide is *both* active *and* on screen, so nothing heavy touches first paint
+and `prefers-reduced-motion` visitors get a poster and a play button instead. Four rooms sit behind
+four fine-line icons (sun, star, shell, moon) that read as a filter but behave as navigation, and
+re-sync themselves when you swipe. Italian and English are resolved **server-side in middleware**, so
+there is no flash of the wrong language. Booking hands off to Holidu at exactly the right moment,
+which means no card data, no availability calendar to keep in sync, and no payment gateway to secure.
+
+<br />
+
+### 🎭 Operafy: *Spotify, but it only plays opera*
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/operafy.gif" width="88%" alt="Operafy demo: browsing operas, searching for Caruso, opening La bohème and using the player" />
+</div>
+
+<div align="center">
+
+[![Listen](https://img.shields.io/badge/▶_Listen_now-operafy--music.vercel.app-A7F62E?style=for-the-badge&labelColor=141922)](https://operafy-music.vercel.app)
+[![Repo](https://img.shields.io/badge/Source-operafy--react-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/operafy-react)
+
+![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Router](https://img.shields.io/badge/React_Router_7-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![31 recordings](https://img.shields.io/badge/catalogue-31_recordings_·_20_operas-8C5A2F?style=flat-square)
+
+</div>
+
+My **first ever HTML and CSS project**, built at bootcamp in 2022. The brief was to push CSS as far
+as it would go, so I made a Spotify clone with one twist: it would only play opera, about which I
+knew nothing. This is the project that got me hooked: the first one I set an alarm hours early for.
+The play buttons played nothing and the playlists were typed into the markup, but it *looked* like
+the real thing.
+
+Four years later I went back and made everything that looked like it worked actually work. **31 real
+recordings from 1896 to 1943** you can play, a full transport with shuffle, repeat, seek and volume,
+accounts and persisted playlists on Appwrite with owner-only row permissions, real routes, search
+across songs, operas, composers and singers, and a mobile layout that swaps the sidebar for a tab bar
+and the player for a mini-player. Every recording and every cover is **public domain**, pulled from
+Wikimedia Commons by a Python script: Caruso, Gigli, Ponselle, original Ricordi posters by
+Hohenstein, Schinkel's 1815 *Zauberflöte* stage design. The in-app credits page links every file to
+its source and licence. The copyrighted album sleeves went in the bin, along with the
+Spotify logo.
+
+<br />
+
+### 🎓 eSIM Admin Dashboard: *my first Python project, and a distinction-level brief*
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/agile.gif" width="88%" alt="Agile assignment demo: signing in, the admin portal, pending requests, users, businesses and a user dashboard" />
+</div>
+
+<div align="center">
+
+[![Live](https://img.shields.io/badge/▶_Live_demo-agile--assignment.onrender.com-7C3AED?style=for-the-badge&labelColor=2E1065)](https://agile-assignment.onrender.com)
+[![Repo](https://img.shields.io/badge/Source-agile--assignment-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/agile-assignment)
+
+![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask_3-000000?style=flat-square&logo=flask&logoColor=white)
+![Postgres](https://img.shields.io/badge/Postgres-Neon-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![384 tests](https://img.shields.io/badge/pytest-384_passing-0A9E4A?style=flat-square&logo=pytest&logoColor=white)
+
+</div>
+
+Built for **Software Engineering and Agile (QAC020N227S)**, a Level 5, 20-credit module on my degree
+apprenticeship, and my first time writing Python. Coming from JavaScript, the interesting part was
+learning how Python does things: blueprints instead of routers, SQLAlchemy models instead of
+hand-written SQL, decorators for access control, pytest for everything.
+
+Two roles, an admin approval gate for self-registered users, request-and-approve flows for eSIMs and
+top-ups, structured request logging, and **384 passing tests** behind a pipeline that runs the suite
+on every push and redeploys `main` only when it's green. Planned with user stories, sprints and a
+Kanban board, and the accompanying report is honest that the Agile practices were applied
+informally rather than systematically, which is exactly the reflection the brief asked for.
+
+> ⏱️ The demo sleeps on Render's free tier. First request takes ~50 seconds to wake it; after that
+> it's quick. Consider it a loading screen with character.
 
 
-## <h2 align="center">ABOUT ME: </h2> 
+---
 
-:construction_worker: Worked in the financial markets
+## 🎓 Qualifications
 
-:house_with_garden: Opened a bed and breakfast in Arezzo, Italy
+<div align="center">
 
-🌱 Organic market garden enthusiast
+<img src="https://images.credly.com/size/120x120/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="96" alt="AWS Certified Cloud Practitioner" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://images.credly.com/size/120x120/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="96" alt="AWS Certified AI Practitioner" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://images.credly.com/size/120x120/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" width="96" alt="AWS Certified Solutions Architect Associate (in progress)" />
 
-⚡ Building PCs since 2014
+![Cloud Practitioner](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![AI Practitioner](https://img.shields.io/badge/AWS_Certified-AI_Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![SAA in progress](https://img.shields.io/badge/Solutions_Architect_Associate-in_progress-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
 
-:dog2: Mini-dachshund owner
+</div>
 
-:dragon: Enjoy fantasy novels, especially LOtR and GoT
+| | Qualification | Detail |
+| :--: | :-- | :-- |
+| ☁️ | **AWS Certified Cloud Practitioner** | Earned. The foundations: services, pricing, and the shared responsibility model. |
+| 🤖 | **AWS Certified AI Practitioner** | Earned. Generative AI and ML on AWS, and where it genuinely belongs in a product. |
+| 🏛️ | **AWS Certified Solutions Architect (Associate)** | **In progress.** Currently the reason my evenings look the way they do. |
+| 💻 | **Digital & Technology Solutions Professional (Level 6)** | Degree apprenticeship covering software engineering, Agile, data, cybersecurity and cloud, studied while working full time on a production platform. The best of both: the theory on Monday, the production incident on Tuesday. |
+| 📊 | **BSc Economics** | University of Bristol. Econometrics, modelling and the habit of asking *"compared to what, and at what cost?"*, which turns out to be the single most useful question in software architecture too. |
 
-:bike: Keep fit by cycling in the Puglia hills
+
+---
+
+## 🧭 How I actually work
+
+Four years of shipping to real clients taught me that the code is the easy part. This is the loop I
+run on every piece of work, big or small:
+
+```mermaid
+flowchart LR
+    A["🎯 Define<br/>the scope"] --> B["⚠️ Evaluate<br/>the risk"]
+    B --> C["👥 Establish<br/>stakeholders"]
+    C --> D["⚙️ Execute"]
+    D --> E["🔨 Pressure<br/>test"]
+    E --> F["🚀 Deliver"]
+    F --> G["💬 Communicate<br/>to client"]
+    E -.->|"found something"| D
+    G -.->|"next iteration"| A
+```
+
+| Step | What it means in practice |
+| :-- | :-- |
+| **🎯 Define the scope** | Write down what is in and, more importantly, what is out. Most project failures I have seen were scope failures wearing a technical costume. |
+| **⚠️ Evaluate the risk** | What breaks, who it hurts, what it costs, and what the rollback looks like. Decided *before* the first commit, not during the incident. |
+| **👥 Establish stakeholders** | Who signs off, who is affected, who has to maintain it at 2am. Surfacing the quiet stakeholder early is worth a week of rework. |
+| **⚙️ Execute** | Build it. Claude helps here, and I treat AI as a very fast, very literal pair programmer that still needs someone with judgement holding the wheel. |
+| **🔨 Pressure test** | Tests, edge cases, and honestly trying to break my own work before a user does it for free. |
+| **🚀 Deliver** | Shipped, monitored, documented. "It works on my machine" is a confession, not a status update. |
+| **💬 Communicate to client** | In their language, not mine. Being the person who can explain a VPC to a non-technical stakeholder has been worth more to my career than any single framework. |
 
 
-I have been lucky to be able to attend a great coding bootcamp, Boolean UK, where I met and was taught by a talented group of instructors and students. My coding influences include the Boolean instructors, as well as Jonas Schmedtmann, Robert Martin, Paul Mendes and many more. After 5th August 2022, I will be looking for opportunities as a Junior Software Developer at a fast paced, innovative work place.
+---
 
-<!--
-**Alex90Jennings/Alex90Jennings** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 📊 GitHub
 
-Here are some ideas to get you started:
+<div align="center">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**3,200+ contributions · 4 years on the platform · JavaScript, TypeScript, Python and Swift by commit volume**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Alex90Jennings&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Alex90Jennings&theme=default" width="92%" alt="Alex Jennings' GitHub profile summary: contributions, repositories and activity over the last year" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Alex90Jennings&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Alex90Jennings&theme=default" height="200" alt="Top languages by commit" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Alex90Jennings&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Alex90Jennings&theme=default" height="200" alt="Repositories per language" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Alex90Jennings&hide_border=true&theme=tokyonight&ring=38BDAE&fire=FF9900&currStreakLabel=38BDAE" />
+  <img src="https://streak-stats.demolab.com?user=Alex90Jennings&hide_border=true&ring=2C5364&fire=FF9900&currStreakLabel=2C5364" height="180" alt="GitHub contribution streak" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Alex90Jennings&theme=github_dark&utcOffset=1" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Alex90Jennings&theme=default&utcOffset=1" height="180" alt="Most productive time of day" />
+</picture>
+
+</div>
+
+<sub><em>The bulk of my commits sit behind private work repositories, so the graph above is the
+hobby half of the picture. The enterprise half is in the App Store.</em></sub>
+
+
+---
+
+## 🌱 Beyond the terminal
+
+<div align="center">
+
+🥕 &nbsp;Growing vegetables &nbsp;&nbsp;·&nbsp;&nbsp; 🌭 &nbsp;Dachshund owner &nbsp;&nbsp;·&nbsp;&nbsp; 🔧 &nbsp;Building PCs
+
+🇮🇹 &nbsp;Italian, B1 and chasing fluency &nbsp;&nbsp;·&nbsp;&nbsp; 🥾 &nbsp;Hiking
+
+⚽ &nbsp;Football &nbsp;&nbsp;·&nbsp;&nbsp; 🏏 &nbsp;Cricket &nbsp;&nbsp;·&nbsp;&nbsp; ♟️ &nbsp;Chess &nbsp;&nbsp;·&nbsp;&nbsp; 📈 &nbsp;Trading and investing
+
+</div>
+
+
+---
+
+> 🤖 **On AI, since everyone's asking.** I use Claude daily and I am not coy about it. It sits in
+> the **Execute** step of the loop above, and it earns its place. What it doesn't do is decide the scope,
+> weigh the risk, or explain a design to a client who's paying for it. Those are the parts of this
+> job I actually enjoy, and the parts that decide whether software is any good.
+
+---
+
+<div align="center">
+
+### 💬 Get in touch
+
+I'm always happy to talk about **AWS architecture**, **React and React Native**, whether cricket is
+a sport or a lifestyle, and what you should be planting this month.
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-90-jennings/)
+[![Email](https://img.shields.io/badge/Send_an_email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aj0312@my.bristol.ac.uk)
+
+<br />
+
+<sub><em>⭐ If something here was useful, a star costs nothing and makes my day.<br />
+🌭 No dachshunds were disturbed in the making of this README. She slept through all of it.</em></sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" alt="" width="100%" />
+
+</div>
