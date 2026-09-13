@@ -390,6 +390,8 @@ reach for a managed service** is as much a part of cloud work as knowing how to 
 
 </div>
 
+I have to admit, this one is not the most interesting. I included it just because it's a demonstration of Python.
+
 Built for **Software Engineering and Agile Assignment**, a Level 5, 20-credit module on my degree
 apprenticeship, and my first time writing Python. Coming from JavaScript, the interesting part was
 learning how **Flask** does things: blueprints instead of routers, **SQLAlchemy** models instead of
