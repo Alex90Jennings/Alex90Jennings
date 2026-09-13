@@ -262,8 +262,8 @@ And that, I said, was that. A finished project, left alone as a reminder of wher
 
 I lied. The loading of the images and audio was taking far too long, because every file was hotlinked
 straight from Wikimedia Commons: someone else's bandwidth, someone else's uptime, and a URL that
-could change without warning and take the player down with it. So I went back a third time and built
-the thing below.
+could change without warning and take the player down with it. So I went back a third time and moved
+every recording and cover onto my own CDN, built in Terraform: **operafy-infra**, next up.
 
 <br />
 
