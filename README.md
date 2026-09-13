@@ -8,7 +8,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex_Jennings_Software-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-jennings-software/)
 [![Email](https://img.shields.io/badge/Email-aj0312%40my.bristol.ac.uk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aj0312@my.bristol.ac.uk)
-[![Location](https://img.shields.io/badge/London,_UK-012169?style=for-the-badge&logo=googlemaps&logoColor=white)](#-beyond-the-terminal)
+[![Location](https://img.shields.io/badge/London,_UK-012169?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Alex90Jennings)
 [![Profile views](https://komarev.com/ghpvc/?username=Alex90Jennings&style=for-the-badge&color=38BDAE&label=VISITORS)](https://github.com/Alex90Jennings)
 
 </div>
@@ -36,7 +36,8 @@ never opened a terminal looks at the thing and says *"oh, that's actually really
 
 ---
 
-## 🛠️ The stack
+<details>
+<summary><h2>🛠️ The stack</h2></summary>
 
 > **First, a principle.** If a cheap managed service does the job well, I will use it rather than
 > write and maintain my own version. Holidu owns the booking calendar on Casalino, Appwrite owns auth
@@ -136,6 +137,7 @@ Optimised for **the 2am phone call never happening**.
 </tr>
 </table>
 
+</details>
 
 ---
 
@@ -145,9 +147,10 @@ The platform I work on every day, then the things I built because I wanted them 
 one is deployed, and every one has a GIF, because a README that describes a UI instead of showing it
 is a README that has given up.
 
-<br />
+<details>
+<summary><h3>📡 ZIM Connections</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" /> <a href="https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114"><img src="https://img.shields.io/badge/App_Store-ZIM_eSIM-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store-ZIM eSIM" /></a></summary>
 
-### 📡 ZIM Connections: *eSIM platform, in production, in both app stores*
+*eSIM platform, in production, in both app stores*
 
 <div align="center">
 
@@ -156,11 +159,6 @@ is a README that has given up.
 [![SoftBank](https://img.shields.io/badge/Live-SoftBank_plans-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white)](https://softbank.zimconnections.com/en/plans)
 [![Akwaaba](https://img.shields.io/badge/Live-Akwaaba_SIM-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white)](https://akwaabasim.com/en/plans)
 
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 
 </div>
 
@@ -219,10 +217,12 @@ flowchart TD
     RDS ~~~ MANAGED
 ```
 
+</details>
 
-<br />
+<details>
+<summary><h3>🎭 Operafy</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <a href="https://operafy-music.vercel.app"><img src="https://img.shields.io/badge/▶_Live-operafy--music.vercel.app-A7F62E?style=flat-square" alt="▶ Live-operafy--music.vercel.app" /></a></summary>
 
-### 🎭 Operafy: *Spotify, but it only plays opera*
+*Spotify, but it only plays opera*
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/operafy.gif" width="88%" alt="Operafy demo: browsing operas, searching for Caruso, opening La bohème and using the player" />
@@ -234,10 +234,6 @@ flowchart TD
 [![Repo](https://img.shields.io/badge/Source-operafy--react-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/operafy-react)
 [![CI](https://github.com/Alex90Jennings/operafy-react/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/operafy-react/actions/workflows/ci.yml)
 
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Router](https://img.shields.io/badge/React_Router_7-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
-![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![31 recordings](https://img.shields.io/badge/catalogue-31_recordings_·_20_operas-8C5A2F?style=flat-square)
 
 </div>
@@ -265,20 +261,18 @@ straight from Wikimedia Commons: someone else's bandwidth, someone else's uptime
 could change without warning and take the player down with it. So I went back a third time and moved
 every recording and cover onto my own CDN, built in Terraform: **operafy-infra**, next up.
 
-<br />
+</details>
 
-### ☁️ operafy-infra: *the CDN behind Operafy, in Terraform*
+<details>
+<summary><h3>☁️ Operafy Infra</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" /> <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white" alt="S3" /> <img src="https://img.shields.io/badge/CloudFront-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="CloudFront" /> <img src="https://img.shields.io/badge/IAM-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white" alt="IAM" /> <img src="https://img.shields.io/badge/OIDC-2088FF?style=flat-square&logo=openid&logoColor=white" alt="OIDC" /> <a href="https://github.com/Alex90Jennings/operafy-infra"><img src="https://img.shields.io/badge/GitHub-operafy--infra-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub-operafy--infra" /></a></summary>
+
+*The CDN behind Operafy, in Terraform*
 
 <div align="center">
 
 [![Repo](https://img.shields.io/badge/Source-operafy--infra-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/operafy-infra)
 [![CI](https://github.com/Alex90Jennings/operafy-infra/actions/workflows/terraform.yml/badge.svg)](https://github.com/Alex90Jennings/operafy-infra/actions/workflows/terraform.yml)
 
-![Terraform](https://img.shields.io/badge/Terraform-1.16-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![S3](https://img.shields.io/badge/S3-private_bucket-569A31?style=flat-square&logo=amazons3&logoColor=white)
-![CloudFront](https://img.shields.io/badge/CloudFront-OAC-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-![IAM](https://img.shields.io/badge/IAM-least_privilege-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white)
-![OIDC](https://img.shields.io/badge/GitHub_OIDC-no_stored_keys-2088FF?style=flat-square&logo=github&logoColor=white)
 
 </div>
 
@@ -330,9 +324,12 @@ While I was in the account I audited it against Cost Explorer and **cut the bill
 orphaned resources: an 8 GB volume detached since 2023, dead hosted zones, an unused secret and two
 abandoned API Gateways.
 
-<br />
+</details>
 
-### 🛒 Total Guess: *guess the total, one basket a day*
+<details>
+<summary><h3>🛒 Total Guess</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD" /> <a href="https://www.total-guess.com"><img src="https://img.shields.io/badge/▶_Play-total--guess.com-40E0D0?style=flat-square" alt="▶ Play-total--guess.com" /></a></summary>
+
+*Guess the total, one basket a day*
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/total-guess.gif" width="88%" alt="Total Guess demo: guessing ten supermarket items, the running total, the result and the shareable receipt" />
@@ -344,10 +341,6 @@ abandoned API Gateways.
 [![Repo](https://img.shields.io/badge/Source-total--guess-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/total-guess)
 [![CI](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml)
 
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Router](https://img.shields.io/badge/React_Router_6-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
-![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![268 products](https://img.shields.io/badge/catalogue-268_products-36454F?style=flat-square)
 
 </div>
@@ -369,45 +362,12 @@ was obvious the hosted zone and query charges were the entire bill for something
 behind it, so I moved DNS and hosting to a free tier and kept the domain. **Knowing when not to
 reach for a managed service** is as much a part of cloud work as knowing how to wire one up.
 
-<br />
+</details>
 
-### 🏡 Il Casino Casalino: *a real B&B, and the site built to fill it*
+<details>
+<summary><h3>🎓 eSIM Admin Dashboard</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" /> <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon" /> <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render" /> <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" /> <a href="https://agile-assignment.onrender.com"><img src="https://img.shields.io/badge/▶_Live-agile--assignment.onrender.com-7C3AED?style=flat-square" alt="▶ Live-agile--assignment.onrender.com" /></a></summary>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/casalino.gif" width="88%" alt="Il Casino Casalino demo: hero, gallery, the four-room selector and the inline availability check" />
-</div>
-
-<div align="center">
-
-[![Live](https://img.shields.io/badge/▶_Visit-www.ilcasinocasalino.com-2B2B2B?style=for-the-badge&labelColor=9C8F82)](https://www.ilcasinocasalino.com)
-[![Repo](https://img.shields.io/badge/Source-il--casalino-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/il-casalino)
-[![CI](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml)
-
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-</div>
-
-Client work for a four-room B&B in Francavilla Fontana, Puglia. The brief was narrow and sharp: make
-the property look as good as it does in person, load fast on holiday Wi-Fi, and get a visitor from
-*"this looks nice"* to an availability check **in one scroll**.
-
-Video sells a stay in a way stills don't, so the engineering went into making it affordable: 4K
-originals never reach the repo, a deterministic `ffmpeg` transcode caps everything at 1280px with no
-audio track and `+faststart`, and every room clip lands **under 1 MB**. `LazyVideo` mounts a
-`<video>` only when its slide is *both* active *and* on screen, so nothing heavy touches first paint
-and `prefers-reduced-motion` visitors get a poster and a play button instead. Four rooms sit behind
-four fine-line icons (sun, star, shell, moon) that read as a filter but behave as navigation, and
-re-sync themselves when you swipe. Italian and English are resolved **server-side in middleware**, so
-there is no flash of the wrong language. Booking hands off to Holidu at exactly the right moment,
-which means no card data, no availability calendar to keep in sync, and no payment gateway to secure.
-
-<br />
-
-### 🎓 eSIM Admin Dashboard: *my first Python project, and a distinction-level brief*
+*My first Python project, and a distinction-level brief*
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/agile.gif" width="88%" alt="Agile assignment demo: signing in, the admin portal, pending requests, users, businesses and a user dashboard" />
@@ -419,10 +379,6 @@ which means no card data, no availability calendar to keep in sync, and no payme
 [![Repo](https://img.shields.io/badge/Source-agile--assignment-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/agile-assignment)
 [![CI](https://github.com/Alex90Jennings/agile-assignment/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/agile-assignment/actions/workflows/ci.yml)
 
-![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask_3-000000?style=flat-square&logo=flask&logoColor=white)
-![Postgres](https://img.shields.io/badge/Postgres-Neon-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 ![384 tests](https://img.shields.io/badge/pytest-384_passing-0A9E4A?style=flat-square&logo=pytest&logoColor=white)
 
 </div>
@@ -441,10 +397,46 @@ informally rather than systematically, which is exactly the reflection the brief
 > ⏱️ The demo sleeps on Render's free tier. First request takes ~50 seconds to wake it; after that
 > it's quick. Consider it a loading screen with character.
 
+</details>
+
+<details>
+<summary><h3>🏡 Il Casino Casalino</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" /> <img src="https://img.shields.io/badge/Design-9C8F82?style=flat-square" alt="Design" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <a href="https://www.ilcasinocasalino.com"><img src="https://img.shields.io/badge/▶_Live-ilcasinocasalino.com-2B2B2B?style=flat-square" alt="▶ Live-ilcasinocasalino.com" /></a></summary>
+
+*A real B&B, and the site built to fill it*
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/casalino.gif" width="88%" alt="Il Casino Casalino demo: hero, gallery, the four-room selector and the inline availability check" />
+</div>
+
+<div align="center">
+
+[![Live](https://img.shields.io/badge/▶_Visit-www.ilcasinocasalino.com-2B2B2B?style=for-the-badge&labelColor=9C8F82)](https://www.ilcasinocasalino.com)
+[![Repo](https://img.shields.io/badge/Source-il--casalino-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/il-casalino)
+[![CI](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml)
+
+
+</div>
+
+Client work for a four-room B&B in Francavilla Fontana, Puglia. The brief was narrow and sharp: make
+the property look as good as it does in person, load fast on holiday Wi-Fi, and get a visitor from
+*"this looks nice"* to an availability check **in one scroll**.
+
+Video sells a stay in a way stills don't, so the engineering went into making it affordable: 4K
+originals never reach the repo, a deterministic `ffmpeg` transcode caps everything at 1280px with no
+audio track and `+faststart`, and every room clip lands **under 1 MB**. `LazyVideo` mounts a
+`<video>` only when its slide is *both* active *and* on screen, so nothing heavy touches first paint
+and `prefers-reduced-motion` visitors get a poster and a play button instead. Four rooms sit behind
+four fine-line icons (sun, star, shell, moon) that read as a filter but behave as navigation, and
+re-sync themselves when you swipe. Italian and English are resolved **server-side in middleware**, so
+there is no flash of the wrong language. Booking hands off to Holidu at exactly the right moment,
+which means no card data, no availability calendar to keep in sync, and no payment gateway to secure.
+
+</details>
 
 ---
 
-## 🎓 Qualifications
+<details>
+<summary><h2>🎓 Qualifications</h2>&nbsp;&nbsp;<img src="https://img.shields.io/badge/AWS_Certified-×2-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Certified-×2" /> <img src="https://img.shields.io/badge/BSc-×2-2C5364?style=flat-square" alt="BSc-×2" /></summary>
 
 <div align="center">
 
@@ -468,10 +460,10 @@ informally rather than systematically, which is exactly the reflection the brief
 | 💻 | **BSc Digital & Technology Solutions (Software Engineering)** | University of Roehampton, degree apprenticeship, 2024 to 2027. Software engineering, Agile, data, cybersecurity and cloud, studied while working full time on a production platform. The best of both: the theory on Monday, the production incident on Tuesday. |
 | 📊 | **BSc Economics** | University of Bristol. Econometrics, modelling and the habit of asking *"compared to what, and at what cost?"*, which turns out to be the single most useful question in software architecture too. |
 
+</details>
 
----
-
-## 🧭 How I actually work
+<details>
+<summary><h2>🧭 How I actually work</h2></summary>
 
 Four years of shipping to real clients taught me that the code is the easy part. This is the loop I
 run on every piece of work, big or small:
@@ -500,10 +492,15 @@ flowchart TD
 | **🚀 Deliver** | Shipped, monitored, documented. "It works on my machine" is a confession, not a status update. |
 | **💬 Communicate to client** | In their language, not mine. Being the person who can explain a VPC to a non-technical stakeholder has been worth more to my career than any single framework. |
 
+> 🤖 **On AI, since everyone's asking.** I use Claude daily and I am not coy about it. It sits in
+> the **Execute** step of the loop above, and it earns its place. What it doesn't do is decide the scope,
+> weigh the risk, or explain a design to a client who's paying for it. Those are the parts of this
+> job I actually enjoy, and the parts that decide whether software is any good.
 
----
+</details>
 
-## 📊 GitHub
+<details>
+<summary><h2>📊 GitHub</h2></summary>
 
 <div align="center">
 
@@ -537,10 +534,10 @@ flowchart TD
 <sub><em>The bulk of my commits sit behind private work repositories, so the graph above is the
 hobby half of the picture. The enterprise half is in the App Store.</em></sub>
 
+</details>
 
----
-
-## 🌱 Beyond the terminal
+<details>
+<summary><h2>🌱 Beyond the terminal</h2></summary>
 
 <div align="center">
 
@@ -552,19 +549,13 @@ hobby half of the picture. The enterprise half is in the App Store.</em></sub>
 
 </div>
 
-
----
-
-> 🤖 **On AI, since everyone's asking.** I use Claude daily and I am not coy about it. It sits in
-> the **Execute** step of the loop above, and it earns its place. What it doesn't do is decide the scope,
-> weigh the risk, or explain a design to a client who's paying for it. Those are the parts of this
-> job I actually enjoy, and the parts that decide whether software is any good.
+</details>
 
 ---
 
 <div align="center">
 
-### 💬 Get in touch
+## 💬 Get in touch
 
 I'm always happy to talk about **AWS architecture**, **React and React Native**, whether cricket is
 a sport or a lifestyle, and what you should be planting this month.
