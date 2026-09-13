@@ -141,26 +141,12 @@ Optimised for **the 2am phone call never happening**.
 
 ---
 
-## 🚀 Projects
-
-The platform I work on every day, then the things I built because I wanted them to exist. Every
-one is deployed, and every one has a GIF, because a README that describes a UI instead of showing it
-is a README that has given up.
+## 💼 Full-time work
 
 <details>
-<summary><h3>📡 ZIM Connections</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" /> <a href="https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114"><img src="https://img.shields.io/badge/App_Store-ZIM_eSIM-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store-ZIM eSIM" /></a></summary>
+<summary><h3>📡 ZIM Connections</h3>&nbsp;&nbsp;<sub><b>Software Developer</b> · Oct 2022 – Present · London</sub><br /><img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />&nbsp;&nbsp;<a href="https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114"><img src="https://img.shields.io/badge/App_Store-ZIM_eSIM-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store-ZIM eSIM" /></a> <a href="https://apps.apple.com/us/app/zim-sbb-esim-data-plans/id6469112236"><img src="https://img.shields.io/badge/App_Store-ZIM%40SBB-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store-ZIM%40SBB" /></a> <a href="https://softbank.zimconnections.com/en/plans"><img src="https://img.shields.io/badge/Live-SoftBank_plans-2C5364?style=flat-square&logo=googlechrome&logoColor=white" alt="Live-SoftBank plans" /></a> <a href="https://akwaabasim.com/en/plans"><img src="https://img.shields.io/badge/Live-Akwaaba_SIM-2C5364?style=flat-square&logo=googlechrome&logoColor=white" alt="Live-Akwaaba SIM" /></a></summary>
 
 *eSIM platform, in production, in both app stores*
-
-<div align="center">
-
-[![ZIM app](https://img.shields.io/badge/App_Store-ZIM_eSIM-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114)
-[![ZIM@SBB app](https://img.shields.io/badge/App_Store-ZIM%40SBB-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)](https://apps.apple.com/us/app/zim-sbb-esim-data-plans/id6469112236)
-[![SoftBank](https://img.shields.io/badge/Live-SoftBank_plans-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white)](https://softbank.zimconnections.com/en/plans)
-[![Akwaaba](https://img.shields.io/badge/Live-Akwaaba_SIM-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white)](https://akwaabasim.com/en/plans)
-
-
-</div>
 
 My day job: a consumer eSIM platform selling international data, calls and connectivity plans, with
 paying customers on it, a **React Native app on iOS and Android**, white-label web platforms for
@@ -218,6 +204,13 @@ flowchart TD
 ```
 
 </details>
+
+---
+
+## 🚀 Personal projects
+
+The things I built because I wanted them to exist, or because someone asked. Every one is live, with
+the source and its CI a click away.
 
 <details>
 <summary><h3>🎭 Operafy</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <a href="https://operafy-music.vercel.app"><img src="https://img.shields.io/badge/▶_Live-operafy--music.vercel.app-A7F62E?style=flat-square" alt="▶ Live-operafy--music.vercel.app" /></a></summary>
