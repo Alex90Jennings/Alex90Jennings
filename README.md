@@ -146,7 +146,7 @@ Optimised for **the 2am phone call never happening**.
 
 *eSIM platform, in production, in both app stores*
 
-My day job: a consumer eSIM platform selling international data, calls and connectivity plans, with
+A consumer eSIM platform selling international data, calls and connectivity plans, with
 paying customers on it, a **React Native app on iOS and Android**, white-label web platforms for
 partner brands including **Swiss Federal Railways (SBB)**, **SoftBank** and **Akwaaba**, and a
 business dashboard behind all of it.
