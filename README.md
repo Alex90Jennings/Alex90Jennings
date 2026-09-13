@@ -282,6 +282,31 @@ the thing below.
 
 </div>
 
+```mermaid
+flowchart TD
+    subgraph SHIP ["🚀 Changing the infrastructure"]
+        direction LR
+        PR["📝 Pull request<br/><i>fmt · validate · plan<br/>plan posted as a comment</i>"]
+        GATE["🙋 Merge + approval<br/><i>GitHub environment</i>"]
+        OIDC["🎟️ OIDC → STS<br/><i>short-lived deploy role<br/>no stored AWS keys</i>"]
+        APPLY["🏗️ terraform apply<br/><i>the reviewed plan</i>"]
+        STATE[("🗃️ Remote state<br/><i>S3 · lock file</i>")]
+        PR --> GATE --> OIDC --> APPLY
+        APPLY <--> STATE
+    end
+
+    subgraph SERVE ["🎧 Serving the media"]
+        direction LR
+        V["🎭 Operafy player<br/><i>browser</i>"]
+        CF["⚡ CloudFront<br/><i>HTTP/2 + 3 · compression · GET/HEAD only</i>"]
+        S3[("🔒 Private S3 bucket<br/><i>versioned · encrypted · lifecycle rule</i>")]
+        V -->|"HTTPS"| CF
+        CF -->|"Origin Access Control<br/>SigV4-signed"| S3
+    end
+
+    SHIP ==>|"provisions"| SERVE
+```
+
 Operafy hotlinked its recordings from Wikimedia Commons, so the player broke whenever a file was
 re-encoded and the bandwidth was somebody else's. This is the **infrastructure as code** that fixed
 it: a private **S3** bucket behind **CloudFront**, with an **Origin Access Control** and a bucket
