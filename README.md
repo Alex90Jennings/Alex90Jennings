@@ -179,23 +179,44 @@ core, so that adding the *next* partner is a configuration change rather than a 
 
 ```mermaid
 flowchart TD
-    U["📱 Mobile app<br/><i>React Native · iOS + Android</i>"]
-    W["🌐 White-label web platforms<br/><i>Next.js · one codebase, many brands</i>"]
-    subgraph AWS ["☁️ AWS"]
-        direction TB
-        CF["🌍 CloudFront<br/><i>CDN · edge caching</i>"]
-        ALB["⚖️ Application Load Balancer"]
-        API["🧩 NestJS API<br/><i>TypeScript · Docker</i>"]
-        SVC["🔌 Node.js services<br/><i>provider connector · notifications</i>"]
-        RDS[("🗄️ PostgreSQL<br/><i>Amazon RDS</i>")]
+    subgraph CLIENTS ["👥 Clients"]
+        direction LR
+        U["📱 Mobile app<br/><i>React Native · iOS + Android</i>"]
+        W["🌐 White-label web platforms<br/><i>Next.js · many brands</i>"]
     end
 
-    U -->|"REST · Socket.IO"| CF
-    W -->|"REST"| CF
-    CF --> ALB
-    ALB --> API
-    API --> RDS
-    API -.-> SVC
+    DNS["🧭 Cloudflare<br/><i>authoritative DNS</i>"]
+
+    subgraph EDGE ["🌍 AWS edge"]
+        direction TB
+        WAF["🛡️ AWS WAF<br/><i>managed rule groups</i>"]
+        CF["⚡ CloudFront<br/><i>CDN · TLS certificates from ACM</i>"]
+        WAF --> CF
+    end
+
+    subgraph VPC ["🔒 Amazon VPC · multiple Availability Zones"]
+        direction TB
+        IGW["🚪 Internet Gateway"]
+        subgraph PUB ["Public subnets"]
+            ALB["⚖️ Application Load Balancer<br/><i>health checks</i>"]
+        end
+        subgraph PRIV ["Private subnets"]
+            EC2["🖥️ EC2 · NestJS API<br/><i>IAM instance profile</i>"]
+            RDS[("🗄️ RDS PostgreSQL<br/><i>Multi-AZ · automated backups</i>")]
+        end
+        IGW --> ALB --> EC2 --> RDS
+    end
+
+    subgraph MANAGED ["🧰 Managed services"]
+        COG["🔑 Cognito<br/><i>auth · tokens</i>"] ~~~ SM["🔐 Secrets Manager"] ~~~ S3["📦 S3<br/><i>assets</i>"]
+        Q["📥 SQS → Lambda<br/><i>background jobs</i>"] ~~~ MSG["📣 SNS · SES<br/><i>push · email</i>"] ~~~ APM["📈 Elastic APM<br/><i>traces · errors</i>"]
+    end
+
+    CLIENTS -->|"HTTPS"| WAF
+    DNS -.->|"CNAME"| CF
+    CF --> IGW
+    EC2 -.->|"IAM role"| MANAGED
+    RDS ~~~ MANAGED
 ```
 
 
