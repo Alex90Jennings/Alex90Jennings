@@ -23,7 +23,7 @@ const alex = {
   since:     2022,
   building:  ["eSIM platforms", "React Native apps", "AWS infrastructure"],
   stack:     ["TypeScript", "React", "Next.js", "NestJS", "Node.js", "Python", "AWS"],
-  studying:  ["AWS Solutions Architect Associate", "BSc Digital & Technology Solutions (Software Engineer)"],
+  studying:  ["AWS Solutions Architect Associate", "BSc Digital & Technology Solutions (Software Engineering)"],
   languages: ["English (native)", "Italian (B1, climbing)", "JavaScript (fluent, mostly)"],
 };
 ```
@@ -129,8 +129,7 @@ Optimised for **the 2am phone call never happening**.
 - **NestJS on Node.js**: typed, modular, boring in the best way
 - **PostgreSQL on RDS**: Multi-AZ, automated backups, point-in-time recovery
 - **React Native**: one codebase, two app stores, one release process
-- **AWS**: VPC, EC2, ALB, CloudFront, WAF, Lambda, S3, RDS, IAM, Route 53
-- **Cloudflare**: authoritative DNS in front of the whole thing
+- **AWS**: managed services first, so the undifferentiated work belongs to someone else
 - **Docker + CI/CD**: reproducible, reviewable, reversible
 
 </td>
@@ -162,7 +161,6 @@ is a README that has given up.
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 </div>
 
@@ -174,57 +172,10 @@ The backend is a set of separate **Node.js services**, a **NestJS** API, an **Ex
 connector and a notifications service, each deployed and code reviewed on its own, talking over
 **REST** and **WebSockets** (Socket.IO) where the client needs pushing rather than polling.
 
-A **NestJS** API on **EC2** in private subnets, behind an application load balancer, behind
-**CloudFront and AWS WAF**, with **Cloudflare** as authoritative DNS and **RDS PostgreSQL** running
-Multi-AZ. The interesting engineering in white-labelling is not the theming. It is keeping
-partner-specific behaviour out of the core, so that adding the *next* partner is a configuration
-change rather than a fork.
-
-```mermaid
-flowchart TD
-    U["📱 Mobile app<br/><i>React Native · iOS + Android</i>"]
-    W["🌐 Web platforms<br/><i>Next.js</i>"]
-    DNS["☁️ Cloudflare DNS<br/><i>authoritative</i>"]
-    CF["🛡️ CloudFront + AWS WAF<br/><i>CDN · edge · TLS terminates</i>"]
-    COG["🔑 Amazon Cognito<br/><i>user pools · token issue</i>"]
-
-    subgraph VPC ["🔒 AWS VPC"]
-        direction TB
-        IGW["Internet Gateway"]
-        subgraph PUB ["Public subnets · multiple AZs"]
-            ALB["⚖️ Application Load Balancer<br/><i>Layer 7 · health checks</i>"]
-        end
-        subgraph PRIV ["Private subnets · no public IP"]
-            EC2["🖥️ EC2 · NestJS API<br/><i>Linux · PM2 · IAM instance profile</i>"]
-            RDS[("🗄️ RDS PostgreSQL<br/><i>Multi-AZ · automated failover</i>")]
-        end
-    end
-
-    MAN["🧰 Managed services<br/><i>Secrets Manager · S3 · Lambda<br/>SQS · SNS · SES · Elastic APM</i>"]
-
-    U -->|"HTTPS"| CF
-    W -->|"HTTPS"| CF
-    DNS -.->|"CNAME"| CF
-    CF -->|"HTTPS"| IGW
-    IGW --> ALB
-    ALB --> EC2
-    EC2 --> RDS
-    EC2 -.->|"verify tokens"| COG
-    EC2 -.-> MAN
-```
-
-**The cloud engineering, specifically**
-
-| Area | What that means here |
-| :-- | :-- |
-| **High availability & disaster recovery** | RDS runs **Multi-AZ** with a synchronous standby and **automated failover**, backed by automated backups and **point-in-time recovery**. Multi-AZ buys availability, not scale, which is what a read replica is for. |
-| **Network design** | Public and private subnets spread across multiple **Availability Zones**. The API holds **no public IP** and is reachable only through the load balancer. **Security groups** are stateful and reference each other rather than CIDR ranges; **NACLs** are stateless and need a rule in each direction. |
-| **Identity & least privilege** | **Amazon Cognito** for end-user **authentication** and token issue, role checks for **authorisation**, **IAM instance profiles** and **STS** for short-lived auto-rotated service credentials, and **Secrets Manager** for the rest. No long-lived key on disk. |
-| **Edge, CDN & security** | **ACM** issues the certificates. **CloudFront** answers from the nearest edge location with **AWS WAF** in front, so static assets never reach the origin. TLS terminates at the edge and again at the load balancer, keeping traffic **encrypted in transit** throughout. A managed rule overridden to **Count** observes without blocking, which is the trap worth knowing about. |
-| **Observability & monitoring** | **Elastic APM** on the Node services and **RUM** in the browser, with traces, errors and latency in **Kibana**. |
-| **Serverless & async** | **Lambda** and **SQS** for work that should never block a request, **SNS** and **SES** for push and email. |
-| **Delivery** | **Docker**, **GitHub Actions** pipelines, **Bash** tooling, and **Linux** servers running the API under PM2. |
-| **Cost optimisation** | Reading the bill is part of the job. Auditing my own account against **Cost Explorer** turned up an unattached volume, dead hosted zones and an unused secret, and removing them cut it by 99%. |
+On the infrastructure side I work across the **AWS** estate behind it: load balancing, CDN,
+managed **PostgreSQL**, containerised services, **CI/CD** pipelines and monitoring. The interesting
+engineering in white-labelling is not the theming. It is keeping partner-specific behaviour out of the
+core, so that adding the *next* partner is a configuration change rather than a fork.
 
 
 <br />
@@ -374,8 +325,8 @@ policy naming that one distribution, so the objects are unreachable any other wa
 `fmt`, `validate` and `plan` on every pull request, comments the plan back, and applies the
 **reviewed plan artefact** on merge behind an approval gate, authenticating through **GitHub OIDC**
 with **no AWS access key** anywhere in the repository. The deploy role is scoped to named ARNs and
-cannot rewrite its own permissions. The provider pins `allowed_account_ids`, because this machine
-also holds production credentials and a wrong profile should abort rather than apply.
+cannot rewrite its own permissions. The provider pins `allowed_account_ids`, so credentials that
+resolve to the wrong account abort the run rather than apply to it.
 
 Building it turned up a genuinely instructive bug: every role assumption was refused while the trust
 policy looked correct, because this account emits a **customised OIDC subject claim** carrying the
@@ -447,7 +398,7 @@ informally rather than systematically, which is exactly the reflection the brief
 | ☁️ | **AWS Certified Cloud Practitioner** | Earned. The foundations: services, pricing, and the shared responsibility model. |
 | 🤖 | **AWS Certified AI Practitioner** | Earned. Generative AI and ML on AWS, and where it genuinely belongs in a product. |
 | 🏛️ | **AWS Certified Solutions Architect (Associate)** | **In progress.** Currently the reason my evenings look the way they do. |
-| 💻 | **BSc Digital & Technology Solutions (Software Engineer)** | University of Roehampton, degree apprenticeship, 2024 to 2027. Software engineering, Agile, data, cybersecurity and cloud, studied while working full time on a production platform. The best of both: the theory on Monday, the production incident on Tuesday. |
+| 💻 | **BSc Digital & Technology Solutions (Software Engineering)** | University of Roehampton, degree apprenticeship, 2024 to 2027. Software engineering, Agile, data, cybersecurity and cloud, studied while working full time on a production platform. The best of both: the theory on Monday, the production incident on Tuesday. |
 | 📊 | **BSc Economics** | University of Bristol. Econometrics, modelling and the habit of asking *"compared to what, and at what cost?"*, which turns out to be the single most useful question in software architecture too. |
 
 
