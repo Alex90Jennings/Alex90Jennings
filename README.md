@@ -146,6 +146,8 @@ Optimised for **the 2am phone call never happening**.
 
 *eSIM platform, in production, in both app stores*
 
+🔗 **App Store:** [ZIM eSIM](https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114) · [ZIM@SBB](https://apps.apple.com/us/app/zim-sbb-esim-data-plans/id6469112236) &nbsp;|&nbsp; **Web:** [softbank.zimconnections.com](https://softbank.zimconnections.com/en/plans) · [akwaabasim.com](https://akwaabasim.com/en/plans)
+
 A consumer eSIM platform selling international data, calls and connectivity plans, with
 paying customers on it, a **React Native app on iOS and Android**, white-label web platforms for
 partner brands including **Swiss Federal Railways (SBB)**, **SoftBank** and **Akwaaba**, and a
@@ -221,6 +223,8 @@ the source and its CI a click away.
 
 *Spotify, but it only plays opera*
 
+🔗 **Live:** [operafy-music.vercel.app](https://operafy-music.vercel.app) &nbsp;|&nbsp; **Source:** [github.com/Alex90Jennings/operafy-react](https://github.com/Alex90Jennings/operafy-react)
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/operafy.gif" width="88%" alt="Operafy demo: browsing operas, searching for Caruso, opening La bohème and using the player" />
 </div>
@@ -264,6 +268,8 @@ every recording and cover onto my own CDN, built in Terraform: **operafy-infra**
 <summary><h3>☁️ Operafy Infra</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" /> <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white" alt="S3" /> <img src="https://img.shields.io/badge/CloudFront-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="CloudFront" /> <img src="https://img.shields.io/badge/IAM-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white" alt="IAM" /> <img src="https://img.shields.io/badge/OIDC-2088FF?style=flat-square&logo=openid&logoColor=white" alt="OIDC" /> <a href="https://github.com/Alex90Jennings/operafy-infra"><img src="https://img.shields.io/badge/GitHub-operafy--infra-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub-operafy--infra" /></a></summary>
 
 *The CDN behind Operafy, in Terraform*
+
+🔗 **Source:** [github.com/Alex90Jennings/operafy-infra](https://github.com/Alex90Jennings/operafy-infra) &nbsp;|&nbsp; **Serves:** [operafy-music.vercel.app](https://operafy-music.vercel.app)
 
 <div align="center">
 
@@ -328,6 +334,8 @@ abandoned API Gateways.
 
 *Guess the total, one basket a day*
 
+🔗 **Live:** [www.total-guess.com](https://www.total-guess.com) &nbsp;|&nbsp; **Source:** [github.com/Alex90Jennings/total-guess](https://github.com/Alex90Jennings/total-guess)
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/total-guess.gif" width="88%" alt="Total Guess demo: guessing ten supermarket items, the running total, the result and the shareable receipt" />
 </div>
@@ -366,6 +374,8 @@ reach for a managed service** is as much a part of cloud work as knowing how to 
 
 *My first Python project, and a distinction-level brief*
 
+🔗 **Live:** [agile-assignment.onrender.com](https://agile-assignment.onrender.com) &nbsp;|&nbsp; **Source:** [github.com/Alex90Jennings/agile-assignment](https://github.com/Alex90Jennings/agile-assignment)
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/agile.gif" width="88%" alt="Agile assignment demo: signing in, the admin portal, pending requests, users, businesses and a user dashboard" />
 </div>
@@ -400,6 +410,8 @@ informally rather than systematically, which is exactly the reflection the brief
 <summary><h3>🏡 Il Casino Casalino</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" /> <img src="https://img.shields.io/badge/Design-9C8F82?style=flat-square" alt="Design" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <a href="https://www.ilcasinocasalino.com"><img src="https://img.shields.io/badge/▶_Live-ilcasinocasalino.com-2B2B2B?style=flat-square" alt="▶ Live-ilcasinocasalino.com" /></a></summary>
 
 *A real B&B, and the site built to fill it*
+
+🔗 **Live:** [www.ilcasinocasalino.com](https://www.ilcasinocasalino.com) &nbsp;|&nbsp; **Source:** [github.com/Alex90Jennings/il-casalino](https://github.com/Alex90Jennings/il-casalino)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/casalino.gif" width="88%" alt="Il Casino Casalino demo: hero, gallery, the four-room selector and the inline availability check" />
