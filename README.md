@@ -177,6 +177,27 @@ managed **PostgreSQL**, containerised services, **CI/CD** pipelines and monitori
 engineering in white-labelling is not the theming. It is keeping partner-specific behaviour out of the
 core, so that adding the *next* partner is a configuration change rather than a fork.
 
+```mermaid
+flowchart TD
+    U["📱 Mobile app<br/><i>React Native · iOS + Android</i>"]
+    W["🌐 White-label web platforms<br/><i>Next.js · one codebase, many brands</i>"]
+    subgraph AWS ["☁️ AWS"]
+        direction TB
+        CF["🌍 CloudFront<br/><i>CDN · edge caching</i>"]
+        ALB["⚖️ Application Load Balancer"]
+        API["🧩 NestJS API<br/><i>TypeScript · Docker</i>"]
+        SVC["🔌 Node.js services<br/><i>provider connector · notifications</i>"]
+        RDS[("🗄️ PostgreSQL<br/><i>Amazon RDS</i>")]
+    end
+
+    U -->|"REST · Socket.IO"| CF
+    W -->|"REST"| CF
+    CF --> ALB
+    ALB --> API
+    API --> RDS
+    API -.-> SVC
+```
+
 
 <br />
 
@@ -410,7 +431,7 @@ Four years of shipping to real clients taught me that the code is the easy part.
 run on every piece of work, big or small:
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["🎯 Define<br/>the scope"] --> B["⚠️ Evaluate<br/>the risk"]
     B --> C["👥 Establish<br/>stakeholders"]
     C --> R["🔍 Reuse<br/>before build"]
