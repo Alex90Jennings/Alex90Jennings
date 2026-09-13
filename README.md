@@ -222,81 +222,6 @@ flowchart TD
 
 <br />
 
-### 🛒 Total Guess: *guess the total, one basket a day*
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/total-guess.gif" width="88%" alt="Total Guess demo: guessing ten supermarket items, the running total, the result and the shareable receipt" />
-</div>
-
-<div align="center">
-
-[![Play](https://img.shields.io/badge/▶_Play_now-www.total--guess.com-40E0D0?style=for-the-badge&labelColor=36454F)](https://www.total-guess.com)
-[![Repo](https://img.shields.io/badge/Source-total--guess-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/total-guess)
-[![CI](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml)
-
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Router](https://img.shields.io/badge/React_Router_6-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
-![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![268 products](https://img.shields.io/badge/catalogue-268_products-36454F?style=flat-square)
-
-</div>
-
-I used to add up the shopping in my head on the way round and commit to a number before the till. In
-a Sainsbury's in 2009 I got it **exactly right, to the penny**, and nobody in the queue understood
-why I was so happy. This is that habit turned into a daily game.
-
-Ten real products, one guess each, the same basket for everyone, reset at midnight UTC. A
-**seeded shuffle keyed to the day number** guarantees no repeats within a game and works through the
-whole catalogue before any basket comes round again, which is 26 unique games. There are nine badges, a full
-statistics panel with streaks and error bias, and an emoji-grid share that gives away your *shape*
-but never the prices. Guest play is saved to the browser and migrated into your account if you
-later sign up. Get more than 35% out and the game stops counting; it just files you in the column of
-shame, visible from across the room.
-
-It first ran on AWS, with the domain and its hosted zone in **Route 53**. Once the game was live it
-was obvious the hosted zone and query charges were the entire bill for something with no revenue
-behind it, so I moved DNS and hosting to a free tier and kept the domain. **Knowing when not to
-reach for a managed service** is as much a part of cloud work as knowing how to wire one up.
-
-<br />
-
-### 🏡 Il Casino Casalino: *a real B&B, and the site built to fill it*
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/casalino.gif" width="88%" alt="Il Casino Casalino demo: hero, gallery, the four-room selector and the inline availability check" />
-</div>
-
-<div align="center">
-
-[![Live](https://img.shields.io/badge/▶_Visit-www.ilcasinocasalino.com-2B2B2B?style=for-the-badge&labelColor=9C8F82)](https://www.ilcasinocasalino.com)
-[![Repo](https://img.shields.io/badge/Source-il--casalino-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/il-casalino)
-[![CI](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml)
-
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-</div>
-
-Client work for a four-room B&B in Francavilla Fontana, Puglia. The brief was narrow and sharp: make
-the property look as good as it does in person, load fast on holiday Wi-Fi, and get a visitor from
-*"this looks nice"* to an availability check **in one scroll**.
-
-Video sells a stay in a way stills don't, so the engineering went into making it affordable: 4K
-originals never reach the repo, a deterministic `ffmpeg` transcode caps everything at 1280px with no
-audio track and `+faststart`, and every room clip lands **under 1 MB**. `LazyVideo` mounts a
-`<video>` only when its slide is *both* active *and* on screen, so nothing heavy touches first paint
-and `prefers-reduced-motion` visitors get a poster and a play button instead. Four rooms sit behind
-four fine-line icons (sun, star, shell, moon) that read as a filter but behave as navigation, and
-re-sync themselves when you swipe. Italian and English are resolved **server-side in middleware**, so
-there is no flash of the wrong language. Booking hands off to Holidu at exactly the right moment,
-which means no card data, no availability calendar to keep in sync, and no payment gateway to secure.
-
-<br />
-
 ### 🎭 Operafy: *Spotify, but it only plays opera*
 
 <div align="center">
@@ -379,6 +304,81 @@ Pinning those immutable IDs is the harder-to-abuse form anyway. The write-up is 
 While I was in the account I audited it against Cost Explorer and **cut the bill by 99%** by removing
 orphaned resources: an 8 GB volume detached since 2023, dead hosted zones, an unused secret and two
 abandoned API Gateways.
+
+<br />
+
+### 🛒 Total Guess: *guess the total, one basket a day*
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/total-guess.gif" width="88%" alt="Total Guess demo: guessing ten supermarket items, the running total, the result and the shareable receipt" />
+</div>
+
+<div align="center">
+
+[![Play](https://img.shields.io/badge/▶_Play_now-www.total--guess.com-40E0D0?style=for-the-badge&labelColor=36454F)](https://www.total-guess.com)
+[![Repo](https://img.shields.io/badge/Source-total--guess-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/total-guess)
+[![CI](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml)
+
+![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Router](https://img.shields.io/badge/React_Router_6-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![268 products](https://img.shields.io/badge/catalogue-268_products-36454F?style=flat-square)
+
+</div>
+
+I used to add up the shopping in my head on the way round and commit to a number before the till. In
+a Sainsbury's in 2009 I got it **exactly right, to the penny**, and nobody in the queue understood
+why I was so happy. This is that habit turned into a daily game.
+
+Ten real products, one guess each, the same basket for everyone, reset at midnight UTC. A
+**seeded shuffle keyed to the day number** guarantees no repeats within a game and works through the
+whole catalogue before any basket comes round again, which is 26 unique games. There are nine badges, a full
+statistics panel with streaks and error bias, and an emoji-grid share that gives away your *shape*
+but never the prices. Guest play is saved to the browser and migrated into your account if you
+later sign up. Get more than 35% out and the game stops counting; it just files you in the column of
+shame, visible from across the room.
+
+It first ran on AWS, with the domain and its hosted zone in **Route 53**. Once the game was live it
+was obvious the hosted zone and query charges were the entire bill for something with no revenue
+behind it, so I moved DNS and hosting to a free tier and kept the domain. **Knowing when not to
+reach for a managed service** is as much a part of cloud work as knowing how to wire one up.
+
+<br />
+
+### 🏡 Il Casino Casalino: *a real B&B, and the site built to fill it*
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/casalino.gif" width="88%" alt="Il Casino Casalino demo: hero, gallery, the four-room selector and the inline availability check" />
+</div>
+
+<div align="center">
+
+[![Live](https://img.shields.io/badge/▶_Visit-www.ilcasinocasalino.com-2B2B2B?style=for-the-badge&labelColor=9C8F82)](https://www.ilcasinocasalino.com)
+[![Repo](https://img.shields.io/badge/Source-il--casalino-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/il-casalino)
+[![CI](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/il-casalino/actions/workflows/ci.yml)
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+</div>
+
+Client work for a four-room B&B in Francavilla Fontana, Puglia. The brief was narrow and sharp: make
+the property look as good as it does in person, load fast on holiday Wi-Fi, and get a visitor from
+*"this looks nice"* to an availability check **in one scroll**.
+
+Video sells a stay in a way stills don't, so the engineering went into making it affordable: 4K
+originals never reach the repo, a deterministic `ffmpeg` transcode caps everything at 1280px with no
+audio track and `+faststart`, and every room clip lands **under 1 MB**. `LazyVideo` mounts a
+`<video>` only when its slide is *both* active *and* on screen, so nothing heavy touches first paint
+and `prefers-reduced-motion` visitors get a poster and a play button instead. Four rooms sit behind
+four fine-line icons (sun, star, shell, moon) that read as a filter but behave as navigation, and
+re-sync themselves when you swipe. Italian and English are resolved **server-side in middleware**, so
+there is no flash of the wrong language. Booking hands off to Holidu at exactly the right moment,
+which means no card data, no availability calendar to keep in sync, and no payment gateway to secure.
 
 <br />
 
