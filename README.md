@@ -337,7 +337,7 @@ abandoned API Gateways.
 🔗 **Live:** [www.total-guess.com](https://www.total-guess.com) &nbsp;|&nbsp; **Source:** [github.com/Alex90Jennings/total-guess](https://github.com/Alex90Jennings/total-guess)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/total-guess.gif" width="88%" alt="Total Guess demo: guessing ten supermarket items, the running total, the result and the shareable receipt" />
+  <img src="https://raw.githubusercontent.com/Alex90Jennings/Alex90Jennings/main/assets/total-guess.gif" width="88%" alt="Total Guess demo: guessing ten supermarket items, earning badges, the result, the receipt and sharing the score on X" />
 </div>
 
 <div align="center">
@@ -356,8 +356,8 @@ why I was so happy. This is that habit turned into a daily game.
 
 Ten real products, one guess each, the same basket for everyone, reset at midnight UTC. A
 **seeded shuffle keyed to the day number** guarantees no repeats within a game and works through the
-whole catalogue before any basket comes round again, which is 26 unique games. There are nine badges, a full
-statistics panel with streaks and error bias, and an emoji-grid share that gives away your *shape*
+whole catalogue before any basket comes round again, which is 26 unique games. There are ten badges, topped by
+**Penny perfect** for a basket guessed exactly, a full statistics panel with streaks and error bias, and an emoji-grid share that gives away your *shape*
 but never the prices. Guest play is saved to the browser and migrated into your account if you
 later sign up. Get more than 35% out and the game stops counting; it just files you in the column of
 shame, visible from across the room.
