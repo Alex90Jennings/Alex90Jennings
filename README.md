@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Alex%20Jennings&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Developer%20%C2%B7%20Cloud%20Engineer&descAlignY=56&descSize=18" alt="Alex Jennings, Full-Stack Developer and Cloud Engineer" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=38BDAE&center=true&vCenter=true&width=760&lines=React+%C2%B7+Next.js+%C2%B7+NestJS+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+AWS;Four+years+in%2C+still+learning+and+still+building;Economics+graduate+who+found+a+much+better+use+for+the+maths" alt="React, Next.js, NestJS, TypeScript, Python, AWS" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=38BDAE&center=true&vCenter=true&width=760&lines=React+%C2%B7+Next.js+%C2%B7+NestJS+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+AWS;Four+years+in%2C+still+learning+and+still+building;Economics+graduate+who+found+a+much+better+use+for+the+maths;Weekends+look+like%3A+pizza%2C+walking+my+dog%2C+watching+football%2C+Italian+red+wine" alt="React, Next.js, NestJS, TypeScript, Python, AWS" />
 
 <br />
 
@@ -346,7 +346,7 @@ abandoned API Gateways.
 [![Repo](https://img.shields.io/badge/Source-total--guess-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/total-guess)
 [![CI](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml/badge.svg)](https://github.com/Alex90Jennings/total-guess/actions/workflows/ci.yml)
 
-![268 products](https://img.shields.io/badge/catalogue-268_products-36454F?style=flat-square)
+![2,000 products](https://img.shields.io/badge/catalogue-2%2C000_products-36454F?style=flat-square)
 
 </div>
 
@@ -356,11 +356,19 @@ why I was so happy. This is that habit turned into a daily game.
 
 Ten real products, one guess each, the same basket for everyone, reset at midnight UTC. A
 **seeded shuffle keyed to the day number** guarantees no repeats within a game and works through the
-whole catalogue before any basket comes round again, which is 26 unique games. There are ten badges, topped by
+whole catalogue before any basket comes round again, which is 200 unique games. There are ten badges, topped by
 **Penny perfect** for a basket guessed exactly, a full statistics panel with streaks and error bias, and an emoji-grid share that gives away your *shape*
 but never the prices. Guest play is saved to the browser and migrated into your account if you
 later sign up. Get more than 35% out and the game stops counting; it just files you in the column of
 shame, visible from across the room.
+
+The catalogue used to be 268 products entered by hand, one row and one photo at a time, which is
+fine for proving the idea and hopeless for a game that eats ten products a day. It now comes out of
+**Open Food Facts**: a bulk pull of **25,000 products** with their prices and photos, then an AI
+pass that sorts the dump, assigns each item to a shop and a category, tidies the names and throws
+out anything with no usable price or image. **2,000 survive the filter**, which is 200 baskets
+before a single one comes round again. Growing the catalogue is a pipeline run now rather than an
+evening of data entry.
 
 It first ran on AWS, with the domain and its hosted zone in **Route 53**. Once the game was live it
 was obvious the hosted zone and query charges were the entire bill for something with no revenue
