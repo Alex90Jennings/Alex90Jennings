@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Alex%20Jennings&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Developer%20%C2%B7%20Cloud%20Engineer&descAlignY=56&descSize=18" alt="Alex Jennings, Full-Stack Developer and Cloud Engineer" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=38BDAE&center=true&vCenter=true&width=760&lines=React+%C2%B7+Next.js+%C2%B7+NestJS+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+AWS;Four+years+in%2C+still+learning+and+still+building;Economics+graduate+who+found+a+much+better+use+for+the+maths;Ideal+Sunday%3A+pizza%2C+a+dog+walk%2C+football%2C+Italian+red+wine" alt="React, Next.js, NestJS, TypeScript, Python, AWS" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=38BDAE&center=true&vCenter=true&width=760&lines=React+%C2%B7+Next.js+%C2%B7+NestJS+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+AWS;Four+years+in%2C+still+learning+and+still+building;AI+writes+a+lot+of+the+code%2C+I+still+own+every+line;Economics+graduate+who+found+a+much+better+use+for+the+maths;Ideal+Sunday%3A+pizza%2C+a+dog+walk%2C+football%2C+Italian+red+wine" alt="React, Next.js, NestJS, TypeScript, Python, AWS" />
 
 <br />
 
