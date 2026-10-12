@@ -2,16 +2,25 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Alex%20Jennings&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Developer%20%C2%B7%20Cloud%20Engineer&descAlignY=56&descSize=18" alt="Alex Jennings, Full-Stack Developer and Cloud Engineer" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=38BDAE&center=true&vCenter=true&width=760&lines=React+%C2%B7+Next.js+%C2%B7+NestJS+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+AWS;Four+years+in%2C+still+learning+and+still+building;AI+writes+a+lot+of+the+code%2C+I+still+own+every+line;Economics+graduate+who+found+a+much+better+use+for+the+maths;Ideal+Sunday%3A+pizza%2C+a+dog+walk%2C+football%2C+Italian+red+wine" alt="React, Next.js, NestJS, TypeScript, Python, AWS" />
+**React · React Native · Next.js · NestJS · TypeScript · Python · AWS**
 
 <br />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex_Jennings_Software-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-jennings-software/)
 [![Email](https://img.shields.io/badge/Email-aj0312%40my.bristol.ac.uk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aj0312@my.bristol.ac.uk)
 [![Location](https://img.shields.io/badge/London,_UK-012169?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Alex90Jennings)
-[![Profile views](https://komarev.com/ghpvc/?username=Alex90Jennings&style=for-the-badge&color=38BDAE&label=VISITORS)](https://github.com/Alex90Jennings)
 
 </div>
+
+---
+
+## ⚡ At a glance
+
+- **Production eSIM platform** at ZIM Connections, live on iOS and Android, with paying customers
+- **White-label for SBB, SoftBank and Akwaaba**: one codebase themed for 4 brands and 11 app identities
+- **Infrastructure as code**: Terraform CDN behind CloudFront, deployed through GitHub OIDC with no stored AWS keys
+- **Cost-aware**: cut an AWS bill by 99% by auditing it against Cost Explorer and removing orphaned resources
+- **Five personal projects** below, from a client site for a B&B in Puglia to a daily game with 2,000 products
 
 ---
 
