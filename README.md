@@ -17,7 +17,7 @@
 ## ⚡ At a glance
 
 - **Production eSIM platform** at ZIM Connections, live on iOS and Android, with paying customers
-- **White-label for SBB, SoftBank and Akwaaba**: one codebase themed for 4 brands and 11 app identities
+- **White-label for B2B partners**: one codebase themed for 4 brands and 11 app identities
 - **Infrastructure as code**: Terraform CDN behind CloudFront, deployed through GitHub OIDC with no stored AWS keys
 - **Cost-aware**: cut an AWS bill by 99% by auditing it against Cost Explorer and removing orphaned resources
 - **Five personal projects** below, from a client site for a B&B in Puglia to a daily game with 2,000 products
