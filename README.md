@@ -6,6 +6,7 @@
 
 <br />
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-builtbyaj.io-5EE08A?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=0F1113)](https://www.builtbyaj.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex_Jennings_Software-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-jennings-software/)
 [![Email](https://img.shields.io/badge/Email-aj0312%40my.bristol.ac.uk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aj0312@my.bristol.ac.uk)
 [![Location](https://img.shields.io/badge/London,_UK-012169?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Alex90Jennings)
@@ -16,11 +17,12 @@
 
 ## ⚡ At a glance
 
+- **A portfolio you can talk to**: [builtbyaj.io](https://www.builtbyaj.io) is a terminal with a public MCP server and a Claude assistant that answers only from verified facts
 - **Production eSIM platform** at ZIM Connections, live on iOS and Android, with paying customers
 - **White-label for B2B partners**: one codebase themed for 4 brands and 11 app identities
 - **Infrastructure as code**: Terraform CDN behind CloudFront, deployed through GitHub OIDC with no stored AWS keys
 - **Cost-aware**: cut an AWS bill by 99% by auditing it against Cost Explorer and removing orphaned resources
-- **Five personal projects** below, from a client site for a B&B in Puglia to a daily game with 2,000 products
+- **Seven personal projects** below, from a client site for a B&B in Puglia to a live solar system on the macOS desktop
 
 ---
 
@@ -28,7 +30,7 @@
 
 ```ts
 const alex = {
-  role:      "Full-Stack Developer @ ZIM Connections",
+  role:      "Full-Stack Developer & Cloud Engineer",
   since:     2022,
   building:  ["eSIM platforms", "React Native apps", "AWS infrastructure"],
   stack:     ["TypeScript", "React", "Next.js", "NestJS", "Node.js", "Python", "AWS"],
@@ -151,7 +153,7 @@ Optimised for **the 2am phone call never happening**.
 ---
 
 <details>
-<summary><h2>💼 Full-time work – ZIM Connections</h2>&nbsp;&nbsp;<sub><b>Software Developer</b> · Oct 2022 – Present · London</sub><br /><img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />&nbsp;&nbsp;<a href="https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114"><img src="https://img.shields.io/badge/ZIM_eSIM-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="ZIM eSIM" /></a> <a href="https://apps.apple.com/us/app/zim-sbb-esim-data-plans/id6469112236"><img src="https://img.shields.io/badge/ZIM%40SBB-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="ZIM@SBB" /></a> <a href="https://softbank.zimconnections.com/en/plans"><img src="https://img.shields.io/badge/SoftBank-2C5364?style=flat-square&logo=googlechrome&logoColor=white" alt="SoftBank" /></a> <a href="https://akwaabasim.com/en/plans"><img src="https://img.shields.io/badge/Akwaaba-2C5364?style=flat-square&logo=googlechrome&logoColor=white" alt="Akwaaba" /></a></summary>
+<summary><h2>💼 Full-time work – ZIM Connections</h2>&nbsp;&nbsp;<sub><b>Software Developer</b> · Oct 2022 – Oct 2026 · London</sub><br /><img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />&nbsp;&nbsp;<a href="https://apps.apple.com/us/app/zim-esim-calls-data-plans/id1611244114"><img src="https://img.shields.io/badge/ZIM_eSIM-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="ZIM eSIM" /></a> <a href="https://apps.apple.com/us/app/zim-sbb-esim-data-plans/id6469112236"><img src="https://img.shields.io/badge/ZIM%40SBB-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="ZIM@SBB" /></a> <a href="https://softbank.zimconnections.com/en/plans"><img src="https://img.shields.io/badge/SoftBank-2C5364?style=flat-square&logo=googlechrome&logoColor=white" alt="SoftBank" /></a> <a href="https://akwaabasim.com/en/plans"><img src="https://img.shields.io/badge/Akwaaba-2C5364?style=flat-square&logo=googlechrome&logoColor=white" alt="Akwaaba" /></a></summary>
 
 *eSIM platform, in production, in both app stores*
 
@@ -162,7 +164,7 @@ paying customers on it, a **React Native app on iOS and Android**, white-label w
 partner brands including **Swiss Federal Railways (SBB)**, **SoftBank** and **Akwaaba**, and a
 business dashboard behind all of it.
 
-On the frontend I turn designs into screens that ship: features in the **React Native** app, customer
+On the frontend I turned designs into screens that shipped: features in the **React Native** app, customer
 and B2B dashboards in **React** and **Next.js**, and one codebase themed for **4 brands and 11 app
 identities**. The live chat has shared React hooks that both the mobile app and the web use, and
 ZIM@SBB runs in four languages through **i18next** and **Locize**.
@@ -171,7 +173,7 @@ The backend is a set of separate **Node.js services**, a **NestJS** API, an **Ex
 connector and a notifications service, each deployed and code reviewed on its own, talking over
 **REST** and **WebSockets** (Socket.IO) where the client needs pushing rather than polling.
 
-On the infrastructure side I work across the **AWS** estate behind it: load balancing, CDN,
+On the infrastructure side I worked across the **AWS** estate behind it: load balancing, CDN,
 managed **PostgreSQL**, containerised services, **CI/CD** pipelines and monitoring. The interesting
 engineering in white-labelling is not the theming. It is keeping partner-specific behaviour out of the
 core, so that adding the *next* partner is a configuration change rather than a fork.
@@ -225,7 +227,68 @@ flowchart TD
 ## 🚀 Personal projects
 
 The things I built because I wanted them to exist, or because someone asked. Every one is live, with
-the source and its CI a click away.
+the source a click away, except SOL, which is waiting for its Mac App Store review.
+
+<details>
+<summary><h3>💻 Terminal Portfolio</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/MCP-191919?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP" /> <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <a href="https://www.builtbyaj.io"><img src="https://img.shields.io/badge/▶_Live-builtbyaj.io-5EE08A?style=flat-square" alt="▶ Live-builtbyaj.io" /></a></summary>
+
+*This portfolio, as a terminal you can talk to*
+
+🔗 **Live:** [www.builtbyaj.io](https://www.builtbyaj.io) &nbsp;|&nbsp; **Source:** [github.com/Alex90Jennings/terminal-mcp-portfolio](https://github.com/Alex90Jennings/terminal-mcp-portfolio)
+
+<div align="center">
+
+[![Visit](https://img.shields.io/badge/▶_Open_the_terminal-www.builtbyaj.io-5EE08A?style=for-the-badge&labelColor=0F1113)](https://www.builtbyaj.io)
+[![Repo](https://img.shields.io/badge/Source-terminal--mcp--portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alex90Jennings/terminal-mcp-portfolio)
+
+</div>
+
+A portfolio you explore like a terminal. Type `/projects`, `/experience` or `/help`, or just ask a
+question in plain English, by keyboard or by voice. Behind it is a structured knowledge base in which
+**every claim names its source**, validated at build time, and the same data is served as a **public,
+read-only MCP server** with seven tools and four resources, so any MCP client can ask about my work too.
+
+The assistant is **Claude**, and it answers only from those MCP tools. Every sentence is checked
+before it is shown, and one whose figures don't appear in that turn's tool results is withheld.
+Per-visitor rate limits and spending limits of **$10 a day and $50 a month** are checked before any
+model call, and if they can't be checked, the request is refused. AI requests fail closed, because
+every answer costs money.
+
+Changes to the prompt or model go through **versioned evaluation suites**, including 75 adversarial
+prompts, scored automatically and then reviewed by hand. The automated scores miss things in both
+directions, which is exactly why a person reads every answer. I set the requirements, architecture,
+security constraints and evaluation standards, and built it with Claude Code, reviewing and testing
+each stage.
+
+</details>
+
+<details>
+<summary><h3>☀️ SOL</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" /> <img src="https://img.shields.io/badge/AppKit-000000?style=flat-square&logo=apple&logoColor=white" alt="AppKit" /> <img src="https://img.shields.io/badge/StoreKit_2-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="StoreKit 2" /> <img src="https://img.shields.io/badge/Coming_soon-Mac_App_Store-555555?style=flat-square&logo=apple&logoColor=white" alt="Coming soon to the Mac App Store" /></summary>
+
+*The solar system, live on your desktop*
+
+🔗 **Status:** coming soon to the Mac App Store &nbsp;|&nbsp; **Privacy:** [SOL privacy policy](https://built-by-aj.github.io/sol-privacy/)
+
+A macOS menu bar app that turns the desktop wallpaper into the solar system, with **every planet at
+its real position around the Sun** for the current moment. The angles come from JPL's approximate
+Keplerian elements and are accurate to within 0.35° between 1900 and 2100 (the sizes and distances
+are artistic). You can travel to any moment from 1 AD to 2999 AD, jump to notable celestial dates,
+speed time up to a year per second, and switch on solar flares, asteroids and supernovae.
+
+An always-on animated wallpaper must not drain the battery, so SOL only draws when something changes:
+once a minute at real speed, up to 60 fps while time is sped up or an asteroid is flying, and **not
+at all** while paused, covered or asleep. In the verification pass it used **0.58% of one core** at
+real time. It never touches your actual desktop picture, so quitting it gives your wallpaper back, and
+it is sandboxed and collects nothing.
+
+The part I'm proudest of is **accessibility in an app that is purely visual**. An Explore the Sky menu
+describes where each planet is, notable dates are announced, Reduce Motion follows the system setting,
+and every accessibility option is free rather than behind Pro. A written audit, followed by a
+verification pass, fixed the confirmed defects, and the App Store listing only declares what has been
+tested by hand. SOL is translated into **20 languages** besides English, right to left included, with
+92 automated tests on the engine. Free to download, with SOL Pro as a one-time purchase.
+
+</details>
 
 <details>
 <summary><h3>🎭 Operafy</h3>&nbsp;&nbsp;<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <a href="https://operafy-music.vercel.app"><img src="https://img.shields.io/badge/▶_Live-operafy--music.vercel.app-A7F62E?style=flat-square" alt="▶ Live-operafy--music.vercel.app" /></a></summary>
